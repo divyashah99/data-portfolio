@@ -40,12 +40,20 @@ const projectCategories = [
 
 const featuredProjects = [
   {
-    title: "Fraudulent Transactions Detection",
-    description: "Machine learning models for identifying fraudulent financial transactions, emphasizing data cleaning and exploratory analysis to enhance security and prevent financial losses.",
-    image: "/images/pic10.jpg",
-    category: "Data Science",
-    technologies: ["Python", "Machine Learning", "Data Cleaning", "EDA"],
-    link: "https://github.com/divyashah99/Fraud-Detection"
+    title: "Chat with Database",
+    description: "Natural language interface that allows users to query databases using conversational language, translating plain English to SQL queries.",
+    image: "/images/placeholder.jpg",
+    category: "AI & ML",
+    technologies: ["Python", "NLP", "SQL", "LLMs", "Database Integration"],
+    link: "https://github.com/DataBridgeAI/ChatwithDatabase/tree/main"
+  },
+  {
+    title: "Realtime Data Streaming Pipeline",
+    description: "End-to-end data streaming solution that processes and analyzes data in real-time using modern streaming technologies for immediate insights and actions.",
+    image: "/images/placeholder.jpg",
+    category: "Data Engineering",
+    technologies: ["Kafka", "Spark Streaming", "AWS", "Real-time Analytics"],
+    link: "https://github.com/divyashah99/realtime-data-streaming-pipeline"
   },
   {
     title: "Netflix Data Analysis",
