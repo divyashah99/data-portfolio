@@ -26,12 +26,14 @@ const projectsData = [
     technologies: ["Power BI", "Data Visualization", "KPI Analysis"],
     link: "https://github.com/divyashah99/Myntra-Sales-Analysis/blob/main/MyntraSalesDashboard.pdf"
   },
+  
+  // Data Analytics Projects
   {
     id: 3,
     title: "Youtube API Analysis",
     description: "Analysis of YouTube channel statistics using the YouTube Data API, performing exploratory data analysis on video metrics with visualizations of key insights.",
     image: "/images/pic13.png",
-    category: "data-visualization",
+    category: "data-analytics",
     technologies: ["Python", "YouTube API", "Data Visualization", "EDA"],
     link: "https://github.com/divyashah99/Youtube-API-Analysis"
   },
@@ -40,7 +42,7 @@ const projectsData = [
     title: "Facebook-AdWords Comparative Analysis",
     description: "Comprehensive analysis comparing Facebook and Google AdWords advertising platforms, evaluating performance metrics, ROI, and audience targeting effectiveness.",
     image: "/images/placeholder.jpg",
-    category: "data-visualization",
+    category: "data-analytics",
     technologies: ["Data Analysis", "Marketing Analytics", "Visualization", "ROI Analysis"],
     link: "https://github.com/divyashah99/facebook-adwords-comparative-analysis"
   },
@@ -49,14 +51,41 @@ const projectsData = [
     title: "SFO Air Traffic Analysis",
     description: "Detailed analysis of San Francisco International Airport traffic patterns, passenger flows, and operational metrics to identify optimization opportunities.",
     image: "/images/placeholder.jpg",
-    category: "data-visualization",
+    category: "data-analytics",
     technologies: ["Data Analysis", "Visualization", "Transportation Analytics"],
     link: "https://sites.google.com/view/projectgroup9/"
+  },
+  {
+    id: 6,
+    title: "Data Cleaning in SQL",
+    description: "Addressing data quality issues in the Nashville Housing dataset by enhancing overall quality, standardizing formats, and streamlining for more effective analysis.",
+    image: "/images/pic14.jpg",
+    category: "data-analytics",
+    technologies: ["SQL", "Data Cleaning", "Data Quality"],
+    link: "https://github.com/divyashah99/Data-Cleaning-in-SQL"
+  },
+  {
+    id: 7,
+    title: "Los Angeles Crime Analysis",
+    description: "Analysis of real-world crime data from 2020 to present, focusing on cleaning, exploratory analysis, and addressing questions about crime trends, patterns, and influencing factors.",
+    image: "/images/pic16.jpg",
+    category: "data-analytics",
+    technologies: ["Python", "Data Cleaning", "EDA", "Statistical Analysis"],
+    link: "https://github.com/divyashah99/Los-Angeles-Crime-Analysis"
+  },
+  {
+    id: 8,
+    title: "FIFA 21 Data Cleaning and Transformation",
+    description: "Cleaning and transforming FIFA 2021 player data to make it more suitable for analysis, including player attributes, personal details, and performance metrics.",
+    image: "/images/pic15.jpg",
+    category: "data-analytics",
+    technologies: ["Python", "Data Cleaning", "Data Transformation"],
+    link: "https://github.com/divyashah99/FIFA-21"
   },
   
   // Data Science & ML Projects
   {
-    id: 6,
+    id: 9,
     title: "Fraudulent Transactions Detection",
     description: "Machine learning models for identifying fraudulent financial transactions, emphasizing data cleaning and exploratory analysis to enhance security and prevent financial losses.",
     image: "/images/pic10.jpg",
@@ -65,7 +94,7 @@ const projectsData = [
     link: "https://github.com/divyashah99/Fraud-Detection"
   },
   {
-    id: 7,
+    id: 10,
     title: "Customer Segmentation using RFM Analysis",
     description: "Leveraging e-Commerce dataset to conduct customer segmentation using Recency, Frequency, and Monetary (RFM) analysis for targeted marketing strategies.",
     image: "/images/pic12.jpg",
@@ -74,7 +103,7 @@ const projectsData = [
     link: "https://github.com/divyashah99/Customer-Segmentation-using-RFM-Analysis"
   },
   {
-    id: 8,
+    id: 11,
     title: "Data Science Book Analysis",
     description: "Analysis of Kaggle-sourced Data Science Books dataset from Amazon, exploring correlations between prices and reviews, book length impact, and identifying top Python and ML books.",
     image: "/images/pic13.jpg",
@@ -83,7 +112,7 @@ const projectsData = [
     link: "https://github.com/divyashah99/Data-Science-Book-Analysis"
   },
   {
-    id: 9,
+    id: 12,
     title: "Image Captioning",
     description: "Deep learning model that automatically generates descriptive captions for images using computer vision and natural language processing techniques.",
     image: "/images/placeholder.jpg",
@@ -91,19 +120,10 @@ const projectsData = [
     technologies: ["Python", "Deep Learning", "Computer Vision", "NLP", "TensorFlow"],
     link: "https://github.com/divyashah99/image-captioning"
   },
-  {
-    id: 10,
-    title: "Chat with Database",
-    description: "Natural language interface that allows users to query databases using conversational language, translating plain English to SQL queries.",
-    image: "/images/placeholder.jpg",
-    category: "data-science",
-    technologies: ["Python", "NLP", "SQL", "LLMs", "Database Integration"],
-    link: "https://github.com/DataBridgeAI/ChatwithDatabase/tree/main"
-  },
   
   // Data Engineering Projects
   {
-    id: 11,
+    id: 13,
     title: "ETL File Automation",
     description: "Serverless data pipeline automating file transfer, transformation, and ingestion using AWS Lambda, Glue, SNS, and Snowpipe to load data into Snowflake in real-time.",
     image: "/images/architecture.png",
@@ -112,7 +132,7 @@ const projectsData = [
     link: "https://github.com/divyashah99/aws-sftp-data-pipeline"
   },
   {
-    id: 12,
+    id: 14,
     title: "Realtime Data Streaming Pipeline",
     description: "End-to-end data streaming solution that processes and analyzes data in real-time using modern streaming technologies for immediate insights and actions.",
     image: "/images/placeholder.jpg",
@@ -121,42 +141,25 @@ const projectsData = [
     link: "https://github.com/divyashah99/realtime-data-streaming-pipeline"
   },
   
-  // Data Preparation & Cleaning Projects
-  {
-    id: 13,
-    title: "Data Cleaning in SQL",
-    description: "Addressing data quality issues in the Nashville Housing dataset by enhancing overall quality, standardizing formats, and streamlining for more effective analysis.",
-    image: "/images/pic14.jpg",
-    category: "data-preparation",
-    technologies: ["SQL", "Data Cleaning", "Data Quality"],
-    link: "https://github.com/divyashah99/Data-Cleaning-in-SQL"
-  },
-  {
-    id: 14,
-    title: "Los Angeles Crime Analysis",
-    description: "Analysis of real-world crime data from 2020 to present, focusing on cleaning, exploratory analysis, and addressing questions about crime trends, patterns, and influencing factors.",
-    image: "/images/pic16.jpg",
-    category: "data-preparation",
-    technologies: ["Python", "Data Cleaning", "EDA", "Statistical Analysis"],
-    link: "https://github.com/divyashah99/Los-Angeles-Crime-Analysis"
-  },
+  // Gen-AI Projects
   {
     id: 15,
-    title: "FIFA 21 Data Cleaning and Transformation",
-    description: "Cleaning and transforming FIFA 2021 player data to make it more suitable for analysis, including player attributes, personal details, and performance metrics.",
-    image: "/images/pic15.jpg",
-    category: "data-preparation",
-    technologies: ["Python", "Data Cleaning", "Data Transformation"],
-    link: "https://github.com/divyashah99/FIFA-21"
+    title: "Chat with Database",
+    description: "Natural language interface that allows users to query databases using conversational language, translating plain English to SQL queries.",
+    image: "/images/placeholder.jpg",
+    category: "gen-ai",
+    technologies: ["Python", "NLP", "SQL", "LLMs", "Database Integration"],
+    link: "https://github.com/DataBridgeAI/ChatwithDatabase/tree/main"
   }
 ];
 
 const categories = [
   { id: "all", label: "All Projects" },
+  { id: "data-analytics", label: "Data Analytics" },
   { id: "data-visualization", label: "Data Visualization & BI" },
   { id: "data-science", label: "Data Science & ML" },
   { id: "data-engineering", label: "Data Engineering" },
-  { id: "data-preparation", label: "Data Preparation & Cleaning" }
+  { id: "gen-ai", label: "Gen-AI" }
 ];
 
 const Projects = () => {

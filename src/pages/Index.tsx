@@ -3,7 +3,7 @@ import React from "react";
 import { Button } from "@/components/ui/button";
 import SectionHeader from "@/components/SectionHeader";
 import ProjectCard from "@/components/ProjectCard";
-import { ArrowRight, Brain, Database, UserCircle, Folder } from "lucide-react";
+import { ArrowRight, Brain, Database, UserCircle, Folder, BarChart3, PieChart } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import Layout from "@/components/Layout";
 
@@ -11,30 +11,37 @@ const projectCategories = [
   {
     id: "data-analytics",
     title: "Data Analytics",
-    description: "Transform raw data into actionable insights",
-    icon: <Database className="h-6 w-6 text-accent" />,
+    description: "Extract insights from data through analysis",
+    icon: <BarChart3 className="h-6 w-6 text-accent" />,
     link: "/projects?category=data-analytics"
   },
   {
+    id: "data-visualization",
+    title: "Data Visualization & BI",
+    description: "Transform raw data into visual insights",
+    icon: <PieChart className="h-6 w-6 text-accent" />,
+    link: "/projects?category=data-visualization"
+  },
+  {
     id: "data-science",
-    title: "Data Science",
+    title: "Data Science & ML",
     description: "Discover patterns and predict outcomes",
     icon: <UserCircle className="h-6 w-6 text-accent" />,
     link: "/projects?category=data-science"
   },
   {
-    id: "ai-ml",
-    title: "AI & Machine Learning",
-    description: "Build intelligent systems and algorithms",
-    icon: <Brain className="h-6 w-6 text-accent" />,
-    link: "/projects?category=ai-ml"
-  },
-  {
     id: "data-engineering",
     title: "Data Engineering",
     description: "Design robust data infrastructure and pipelines",
-    icon: <Folder className="h-6 w-6 text-accent" />,
+    icon: <Database className="h-6 w-6 text-accent" />,
     link: "/projects?category=data-engineering"
+  },
+  {
+    id: "gen-ai",
+    title: "Gen-AI",
+    description: "Build intelligent generative AI systems",
+    icon: <Brain className="h-6 w-6 text-accent" />,
+    link: "/projects?category=gen-ai"
   }
 ];
 
