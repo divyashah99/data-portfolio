@@ -12,7 +12,7 @@ const projectsData = [
     id: 1,
     title: "Netflix Data Analysis",
     description: "Interactive Tableau visualizations exploring Netflix content distribution, genre preferences, release patterns, and user ratings to uncover valuable insights on user behavior and content trends.",
-    image: "/placeholder.svg",
+    image: "/images/pic17.jpg",
     category: "data-analytics",
     technologies: ["Tableau", "Data Visualization", "Exploratory Data Analysis"],
     link: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NetflixDashboard_17073368231790/Netflix?publish=yes"
@@ -21,7 +21,7 @@ const projectsData = [
     id: 2,
     title: "Myntra Sales Analysis",
     description: "Power BI dashboard analyzing e-commerce product performance with KPIs including Sales, Quantity, Profit, and Shipping Cost to provide valuable business insights.",
-    image: "/placeholder.svg",
+    image: "/images/pic11.jpg",
     category: "data-analytics",
     technologies: ["Power BI", "Data Visualization", "KPI Analysis"],
     link: "https://github.com/divyashah99/Myntra-Sales-Analysis/blob/main/MyntraSalesDashboard.pdf"
@@ -30,7 +30,7 @@ const projectsData = [
     id: 3,
     title: "Youtube API Analysis",
     description: "Analysis of YouTube channel statistics using the YouTube Data API, performing exploratory data analysis on video metrics with visualizations of key insights.",
-    image: "/placeholder.svg",
+    image: "/images/pic13.png",
     category: "data-analytics",
     technologies: ["Python", "YouTube API", "Data Visualization", "EDA"],
     link: "https://github.com/divyashah99/Youtube-API-Analysis"
@@ -41,7 +41,7 @@ const projectsData = [
     id: 4,
     title: "Fraudulent Transactions Detection",
     description: "Machine learning models for identifying fraudulent financial transactions, emphasizing data cleaning and exploratory analysis to enhance security and prevent financial losses.",
-    image: "/placeholder.svg",
+    image: "/images/pic10.jpg",
     category: "data-science",
     technologies: ["Python", "Machine Learning", "Data Cleaning", "EDA"],
     link: "https://github.com/divyashah99/Fraud-Detection"
@@ -50,7 +50,7 @@ const projectsData = [
     id: 5,
     title: "Customer Segmentation using RFM Analysis",
     description: "Leveraging e-Commerce dataset to conduct customer segmentation using Recency, Frequency, and Monetary (RFM) analysis for targeted marketing strategies.",
-    image: "/placeholder.svg",
+    image: "/images/pic12.jpg",
     category: "data-science",
     technologies: ["Python", "RFM Analysis", "Customer Segmentation", "Data Analysis"],
     link: "https://github.com/divyashah99/Customer-Segmentation-using-RFM-Analysis"
@@ -59,7 +59,7 @@ const projectsData = [
     id: 6,
     title: "Data Science Book Analysis",
     description: "Analysis of Kaggle-sourced Data Science Books dataset from Amazon, exploring correlations between prices and reviews, book length impact, and identifying top Python and ML books.",
-    image: "/placeholder.svg",
+    image: "/images/pic13.jpg",
     category: "data-science",
     technologies: ["Python", "Cluster Analysis", "Web Scraping", "Text Analysis"],
     link: "https://github.com/divyashah99/Data-Science-Book-Analysis"
@@ -70,7 +70,7 @@ const projectsData = [
     id: 7,
     title: "ETL File Automation",
     description: "Serverless data pipeline automating file transfer, transformation, and ingestion using AWS Lambda, Glue, SNS, and Snowpipe to load data into Snowflake in real-time.",
-    image: "/placeholder.svg",
+    image: "/images/architecture.png",
     category: "data-engineering",
     technologies: ["AWS Lambda", "AWS Glue", "Snowflake", "Snowpipe", "ETL"],
     link: "https://github.com/divyashah99/aws-sftp-data-pipeline"
@@ -81,7 +81,7 @@ const projectsData = [
     id: 8,
     title: "Data Cleaning in SQL",
     description: "Addressing data quality issues in the Nashville Housing dataset by enhancing overall quality, standardizing formats, and streamlining for more effective analysis.",
-    image: "/placeholder.svg",
+    image: "/images/pic14.jpg",
     category: "data-analytics",
     technologies: ["SQL", "Data Cleaning", "Data Quality"],
     link: "https://github.com/divyashah99/Data-Cleaning-in-SQL"
@@ -90,7 +90,7 @@ const projectsData = [
     id: 9,
     title: "Los Angeles Crime Analysis",
     description: "Analysis of real-world crime data from 2020 to present, focusing on cleaning, exploratory analysis, and addressing questions about crime trends, patterns, and influencing factors.",
-    image: "/placeholder.svg",
+    image: "/images/pic16.jpg",
     category: "data-analytics",
     technologies: ["Python", "Data Cleaning", "EDA", "Statistical Analysis"],
     link: "https://github.com/divyashah99/Los-Angeles-Crime-Analysis"
@@ -99,7 +99,7 @@ const projectsData = [
     id: 10,
     title: "FIFA 21 Data Cleaning and Transformation",
     description: "Cleaning and transforming FIFA 2021 player data to make it more suitable for analysis, including player attributes, personal details, and performance metrics.",
-    image: "/placeholder.svg",
+    image: "/images/pic15.jpg",
     category: "data-analytics",
     technologies: ["Python", "Data Cleaning", "Data Transformation"],
     link: "https://github.com/divyashah99/FIFA-21"

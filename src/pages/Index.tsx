@@ -42,7 +42,7 @@ const featuredProjects = [
   {
     title: "Fraudulent Transactions Detection",
     description: "Machine learning models for identifying fraudulent financial transactions, emphasizing data cleaning and exploratory analysis to enhance security and prevent financial losses.",
-    image: "/placeholder.svg",
+    image: "/images/pic10.jpg",
     category: "Data Science",
     technologies: ["Python", "Machine Learning", "Data Cleaning", "EDA"],
     link: "https://github.com/divyashah99/Fraud-Detection"
@@ -50,7 +50,7 @@ const featuredProjects = [
   {
     title: "Netflix Data Analysis",
     description: "Interactive Tableau visualizations exploring Netflix content distribution, genre preferences, release patterns, and user ratings to uncover valuable insights on user behavior and content trends.",
-    image: "/placeholder.svg",
+    image: "/images/pic17.jpg",
     category: "Data Analytics",
     technologies: ["Tableau", "Data Visualization", "Exploratory Data Analysis"],
     link: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NetflixDashboard_17073368231790/Netflix?publish=yes"
@@ -58,7 +58,7 @@ const featuredProjects = [
   {
     title: "ETL File Automation",
     description: "Serverless data pipeline automating file transfer, transformation, and ingestion using AWS Lambda, Glue, SNS, and Snowpipe to load data into Snowflake in real-time.",
-    image: "/placeholder.svg",
+    image: "/images/architecture.png",
     category: "Data Engineering",
     technologies: ["AWS Lambda", "AWS Glue", "Snowflake", "Snowpipe", "ETL"],
     link: "https://github.com/divyashah99/aws-sftp-data-pipeline"
