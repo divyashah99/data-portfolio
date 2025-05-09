@@ -10,117 +10,99 @@ const projectsData = [
   // Data Analytics Projects
   {
     id: 1,
-    title: "Customer Segmentation Analysis",
-    description: "Using clustering algorithms to segment customers based on purchasing behavior and demographics for targeted marketing campaigns.",
+    title: "Netflix Data Analysis",
+    description: "Interactive Tableau visualizations exploring Netflix content distribution, genre preferences, release patterns, and user ratings to uncover valuable insights on user behavior and content trends.",
     image: "/placeholder.svg",
     category: "data-analytics",
-    technologies: ["Python", "Scikit-Learn", "Pandas", "Tableau"],
-    link: "#"
+    technologies: ["Tableau", "Data Visualization", "Exploratory Data Analysis"],
+    link: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NetflixDashboard_17073368231790/Netflix?publish=yes"
   },
   {
     id: 2,
-    title: "Sales Performance Dashboard",
-    description: "Interactive dashboard tracking sales performance across regions with drill-down capabilities and forecasting features.",
+    title: "Myntra Sales Analysis",
+    description: "Power BI dashboard analyzing e-commerce product performance with KPIs including Sales, Quantity, Profit, and Shipping Cost to provide valuable business insights.",
     image: "/placeholder.svg",
     category: "data-analytics",
-    technologies: ["Power BI", "DAX", "SQL Server", "Excel"],
-    link: "#"
+    technologies: ["Power BI", "Data Visualization", "KPI Analysis"],
+    link: "https://github.com/divyashah99/Myntra-Sales-Analysis/blob/main/MyntraSalesDashboard.pdf"
   },
   {
     id: 3,
-    title: "Web Analytics Tracking System",
-    description: "Custom analytics tracking system providing insights into user behavior and conversion funnels on e-commerce platforms.",
+    title: "Youtube API Analysis",
+    description: "Analysis of YouTube channel statistics using the YouTube Data API, performing exploratory data analysis on video metrics with visualizations of key insights.",
     image: "/placeholder.svg",
     category: "data-analytics",
-    technologies: ["JavaScript", "Google Analytics API", "BigQuery", "Data Studio"],
-    link: "#"
+    technologies: ["Python", "YouTube API", "Data Visualization", "EDA"],
+    link: "https://github.com/divyashah99/Youtube-API-Analysis"
   },
   
   // Data Science Projects
   {
     id: 4,
-    title: "Time Series Forecasting Model",
-    description: "ARIMA and Prophet models for forecasting stock prices with evaluation of prediction accuracy and confidence intervals.",
+    title: "Fraudulent Transactions Detection",
+    description: "Machine learning models for identifying fraudulent financial transactions, emphasizing data cleaning and exploratory analysis to enhance security and prevent financial losses.",
     image: "/placeholder.svg",
     category: "data-science",
-    technologies: ["Python", "Pandas", "Prophet", "Statsmodels", "Matplotlib"],
-    link: "#"
+    technologies: ["Python", "Machine Learning", "Data Cleaning", "EDA"],
+    link: "https://github.com/divyashah99/Fraud-Detection"
   },
   {
     id: 5,
-    title: "Recommendation Engine",
-    description: "Collaborative filtering system recommending products to users based on their past behavior and similar user preferences.",
+    title: "Customer Segmentation using RFM Analysis",
+    description: "Leveraging e-Commerce dataset to conduct customer segmentation using Recency, Frequency, and Monetary (RFM) analysis for targeted marketing strategies.",
     image: "/placeholder.svg",
     category: "data-science",
-    technologies: ["Python", "Surprise", "NumPy", "Redis", "Flask"],
-    link: "#"
+    technologies: ["Python", "RFM Analysis", "Customer Segmentation", "Data Analysis"],
+    link: "https://github.com/divyashah99/Customer-Segmentation-using-RFM-Analysis"
   },
   {
     id: 6,
-    title: "Anomaly Detection System",
-    description: "System to identify unusual patterns in financial transactions that could indicate fraud or operational issues.",
+    title: "Data Science Book Analysis",
+    description: "Analysis of Kaggle-sourced Data Science Books dataset from Amazon, exploring correlations between prices and reviews, book length impact, and identifying top Python and ML books.",
     image: "/placeholder.svg",
     category: "data-science",
-    technologies: ["Python", "Isolation Forest", "PyCaret", "Streamlit"],
-    link: "#"
-  },
-  
-  // AI & ML Projects
-  {
-    id: 7,
-    title: "Customer Churn Prediction",
-    description: "ML model that predicts customer churn with 89% accuracy using historical customer data and behavior patterns.",
-    image: "/placeholder.svg",
-    category: "ai-ml",
-    technologies: ["Python", "TensorFlow", "Scikit-Learn", "Pandas"],
-    link: "#"
-  },
-  {
-    id: 8,
-    title: "Sentiment Analysis Tool",
-    description: "NLP system analyzing customer reviews and social media mentions to gauge brand perception and product feedback.",
-    image: "/placeholder.svg",
-    category: "ai-ml",
-    technologies: ["Python", "BERT", "Hugging Face", "Flask", "React"],
-    link: "#"
-  },
-  {
-    id: 9,
-    title: "Computer Vision for Quality Control",
-    description: "Deep learning system detecting manufacturing defects from images with 95% accuracy, reducing manual inspection needs.",
-    image: "/placeholder.svg",
-    category: "ai-ml",
-    technologies: ["Python", "PyTorch", "OpenCV", "CUDA", "Docker"],
-    link: "#"
+    technologies: ["Python", "Cluster Analysis", "Web Scraping", "Text Analysis"],
+    link: "https://github.com/divyashah99/Data-Science-Book-Analysis"
   },
   
   // Data Engineering Projects
   {
+    id: 7,
+    title: "ETL File Automation",
+    description: "Serverless data pipeline automating file transfer, transformation, and ingestion using AWS Lambda, Glue, SNS, and Snowpipe to load data into Snowflake in real-time.",
+    image: "/placeholder.svg",
+    category: "data-engineering",
+    technologies: ["AWS Lambda", "AWS Glue", "Snowflake", "Snowpipe", "ETL"],
+    link: "https://github.com/divyashah99/aws-sftp-data-pipeline"
+  },
+  
+  // Data Cleaning Projects
+  {
+    id: 8,
+    title: "Data Cleaning in SQL",
+    description: "Addressing data quality issues in the Nashville Housing dataset by enhancing overall quality, standardizing formats, and streamlining for more effective analysis.",
+    image: "/placeholder.svg",
+    category: "data-analytics",
+    technologies: ["SQL", "Data Cleaning", "Data Quality"],
+    link: "https://github.com/divyashah99/Data-Cleaning-in-SQL"
+  },
+  {
+    id: 9,
+    title: "Los Angeles Crime Analysis",
+    description: "Analysis of real-world crime data from 2020 to present, focusing on cleaning, exploratory analysis, and addressing questions about crime trends, patterns, and influencing factors.",
+    image: "/placeholder.svg",
+    category: "data-analytics",
+    technologies: ["Python", "Data Cleaning", "EDA", "Statistical Analysis"],
+    link: "https://github.com/divyashah99/Los-Angeles-Crime-Analysis"
+  },
+  {
     id: 10,
-    title: "ETL Data Pipeline",
-    description: "Scalable ETL pipeline processing 1TB+ of data daily, transforming raw data into structured formats for analysis.",
+    title: "FIFA 21 Data Cleaning and Transformation",
+    description: "Cleaning and transforming FIFA 2021 player data to make it more suitable for analysis, including player attributes, personal details, and performance metrics.",
     image: "/placeholder.svg",
-    category: "data-engineering",
-    technologies: ["Apache Airflow", "AWS", "Python", "Spark"],
-    link: "#"
-  },
-  {
-    id: 11,
-    title: "Data Lake Architecture",
-    description: "Cloud-based data lake storing structured and unstructured data with proper governance and security controls.",
-    image: "/placeholder.svg",
-    category: "data-engineering",
-    technologies: ["AWS S3", "AWS Glue", "AWS Lake Formation", "Terraform"],
-    link: "#"
-  },
-  {
-    id: 12,
-    title: "Real-time Streaming Platform",
-    description: "System processing and analyzing streaming data from IoT devices for immediate insights and automated actions.",
-    image: "/placeholder.svg",
-    category: "data-engineering",
-    technologies: ["Kafka", "Spark Streaming", "Redis", "Grafana"],
-    link: "#"
+    category: "data-analytics",
+    technologies: ["Python", "Data Cleaning", "Data Transformation"],
+    link: "https://github.com/divyashah99/FIFA-21"
   }
 ];
 
@@ -128,7 +110,6 @@ const categories = [
   { id: "all", label: "All Projects" },
   { id: "data-analytics", label: "Data Analytics" },
   { id: "data-science", label: "Data Science" },
-  { id: "ai-ml", label: "AI & ML" },
   { id: "data-engineering", label: "Data Engineering" }
 ];
 

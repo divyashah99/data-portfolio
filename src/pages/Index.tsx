@@ -40,28 +40,28 @@ const projectCategories = [
 
 const featuredProjects = [
   {
-    title: "Customer Churn Prediction",
-    description: "An ML model that predicts customer churn with 89% accuracy using historical customer data and behavior patterns.",
+    title: "Fraudulent Transactions Detection",
+    description: "Machine learning models for identifying fraudulent financial transactions, emphasizing data cleaning and exploratory analysis to enhance security and prevent financial losses.",
     image: "/placeholder.svg",
-    category: "AI & ML",
-    technologies: ["Python", "TensorFlow", "Scikit-Learn", "Pandas"],
-    link: "/projects/churn-prediction"
+    category: "Data Science",
+    technologies: ["Python", "Machine Learning", "Data Cleaning", "EDA"],
+    link: "https://github.com/divyashah99/Fraud-Detection"
   },
   {
-    title: "Real-time Analytics Dashboard",
-    description: "Interactive dashboard for monitoring business metrics in real-time with customizable views and alerts.",
+    title: "Netflix Data Analysis",
+    description: "Interactive Tableau visualizations exploring Netflix content distribution, genre preferences, release patterns, and user ratings to uncover valuable insights on user behavior and content trends.",
     image: "/placeholder.svg",
     category: "Data Analytics",
-    technologies: ["React", "D3.js", "Kafka", "PostgreSQL"],
-    link: "/projects/analytics-dashboard"
+    technologies: ["Tableau", "Data Visualization", "Exploratory Data Analysis"],
+    link: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NetflixDashboard_17073368231790/Netflix?publish=yes"
   },
   {
-    title: "ETL Data Pipeline",
-    description: "Scalable ETL pipeline processing 1TB+ of data daily, transforming raw data into structured formats for analysis.",
+    title: "ETL File Automation",
+    description: "Serverless data pipeline automating file transfer, transformation, and ingestion using AWS Lambda, Glue, SNS, and Snowpipe to load data into Snowflake in real-time.",
     image: "/placeholder.svg",
     category: "Data Engineering",
-    technologies: ["Apache Airflow", "AWS", "Python", "Spark"],
-    link: "/projects/etl-pipeline"
+    technologies: ["AWS Lambda", "AWS Glue", "Snowflake", "Snowpipe", "ETL"],
+    link: "https://github.com/divyashah99/aws-sftp-data-pipeline"
   },
 ];
 
