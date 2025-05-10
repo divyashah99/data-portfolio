@@ -49,7 +49,7 @@ const featuredProjects = [
   {
     title: "Chat with Database",
     description: "Natural language interface that allows users to query databases using conversational language, translating plain English to SQL queries.",
-    image: "/images/placeholder.jpg",
+    image: "/images/pic22.png",
     category: "AI & ML",
     technologies: ["Python", "NLP", "SQL", "LLMs", "Database Integration"],
     link: "https://github.com/DataBridgeAI/ChatwithDatabase/tree/main"
@@ -57,7 +57,7 @@ const featuredProjects = [
   {
     title: "Realtime Data Streaming Pipeline",
     description: "End-to-end data streaming solution that processes and analyzes data in real-time using modern streaming technologies for immediate insights and actions.",
-    image: "/images/placeholder.jpg",
+    image: "/images/pic21.png",
     category: "Data Engineering",
     technologies: ["Kafka", "Spark Streaming", "AWS", "Real-time Analytics"],
     link: "https://github.com/divyashah99/realtime-data-streaming-pipeline"
@@ -89,7 +89,7 @@ const Index = () => {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-                Data Professional <span className="text-gradient">Portfolio</span>
+                Divya Shah <span className="text-gradient">Portfolio</span>
               </h1>
               <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
                 Transforming complex data into valuable insights and innovative solutions
@@ -250,9 +250,14 @@ const Index = () => {
             <p className="mx-auto max-w-[600px]">
               I'm always open to discussing new opportunities and challenges in the data space.
             </p>
-            <Button asChild size="lg" variant="secondary">
-              <a href="#contact">Get in Touch</a>
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button asChild size="lg" variant="secondary">
+                <a href="mailto:shah.divyab99@gmail.com">Email Me</a>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="bg-white/10">
+                <a href="https://www.linkedin.com/in/divyashah99/" target="_blank" rel="noreferrer">Connect on LinkedIn</a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>

@@ -10,9 +10,10 @@ interface ExperienceItemProps {
   period: string;
   description: string;
   skills: string[];
+  details?: string[];
 }
 
-const ExperienceItem = ({ title, company, period, description, skills }: ExperienceItemProps) => {
+const ExperienceItem = ({ title, company, period, description, skills, details }: ExperienceItemProps) => {
   return (
     <Card className="hover:shadow-md transition-shadow">
       <CardHeader>
@@ -33,6 +34,15 @@ const ExperienceItem = ({ title, company, period, description, skills }: Experie
       </CardHeader>
       <CardContent className="space-y-4">
         <p>{description}</p>
+        
+        {details && details.length > 0 && (
+          <ul className="space-y-2 list-disc pl-5">
+            {details.map((detail, index) => (
+              <li key={index} className="text-base">{detail}</li>
+            ))}
+          </ul>
+        )}
+        
         <div className="flex flex-wrap gap-2">
           {skills.map((skill) => (
             <Badge key={skill} variant="outline">

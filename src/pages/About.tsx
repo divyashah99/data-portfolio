@@ -14,14 +14,15 @@ const About = () => {
         <div className="container px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-4">
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-4 text-foreground">
                 About Me
               </h1>
-              <p className="text-muted-foreground text-lg mb-8">
+              <h2 className="text-xl font-medium mb-4 text-accent">Divya Babulal Shah</h2>
+              <p className="text-muted-foreground text-lg mb-6">
                 Data professional with expertise in analytics, data science, ML/AI, and data engineering.
               </p>
-              <p className="mb-6">
-                With over 8 years of experience in the data space, I've worked across diverse industries including finance, e-commerce, healthcare, and tech. My passion lies in transforming complex data challenges into actionable solutions that drive business value.
+              <p className="mb-6 text-justify text-foreground/90 leading-relaxed">
+                I am a passionate and results-driven Data Analytics professional currently pursuing a Master's in Data Analytics Engineering at Northeastern University. With a strong foundation in ETL, data pipelines, and cloud technologies, I specialize in building scalable data solutions that optimize machine learning workflows and drive data-driven decision-making. My expertise spans across data visualization, interactive dashboards, and working with both structured and unstructured data. Enthusiastic about exploring the potential of LLMs, Generative AI, and leveraging advanced analytics techniques to solve complex problems and deliver impactful insights. Dedicated to continuously learning and contributing to innovative, data-centric projects.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button variant="outline" asChild>
@@ -32,7 +33,7 @@ const About = () => {
             <div className="flex justify-center">
               <div className="w-64 h-64 bg-muted rounded-full overflow-hidden shadow-lg">
                 <img 
-                  src="/placeholder.svg" 
+                  src="/images/divyashahphoto.jpg" 
                   alt="Profile" 
                   className="w-full h-full object-cover"
                 />
@@ -88,18 +89,18 @@ const About = () => {
       <section className="py-16 bg-gradient-to-b from-background to-secondary/30">
         <div className="container px-4 md:px-6">
           <SectionHeader title="Professional Journey" align="left" />
-          <div className="prose max-w-none">
-            <p className="mb-4 text-lg">
-              My journey in the data world began with a deep curiosity about how information can be transformed into actionable insights. Starting as a data analyst, I quickly developed a passion for extracting meaningful patterns from complex datasets.
+          <div className="max-w-none">
+            <p className="mb-5 text-base text-justify text-foreground/90 leading-relaxed">
+              My journey in the data world began with a strong foundation in engineering, where I developed a passion for transforming complex information into actionable insights. Starting as a Systems Engineer at TCS, I quickly honed my skills in application development and data collection processes.
             </p>
-            <p className="mb-4">
-              As my career progressed, I expanded my expertise into data science, machine learning, and AI, developing models that predict customer behavior, optimize operations, and automate decision processes. The tangible impact of my work—seeing how data-driven solutions improved business outcomes—fueled my continued growth.
+            <p className="mb-5 text-base text-justify text-foreground/90 leading-relaxed">
+              As my career progressed, I expanded my expertise into data engineering at Fidelity Investments, where I designed scalable data pipelines using Python, AWS, and Snowflake. I've developed a particular talent for automating ETL workflows and creating interactive dashboards that drive stakeholder decision-making. The tangible impact of my work—seeing how data-driven solutions improved business outcomes—fueled my continued growth.
             </p>
-            <p className="mb-4">
-              Recognizing the importance of robust data infrastructure, I ventured into data engineering, designing scalable pipelines and architectures that form the backbone of analytical capabilities. This holistic experience across the data ecosystem allows me to approach problems with a comprehensive perspective.
+            <p className="mb-5 text-base text-justify text-foreground/90 leading-relaxed">
+              My academic pursuit of a Master's in Data Analytics Engineering at Northeastern University has further deepened my technical capabilities, allowing me to explore cutting-edge technologies like LLMs and Generative AI. Projects such as "Chat with Database" and "Realtime Data Streaming Pipeline" showcase my ability to bridge the gap between theoretical knowledge and practical applications.
             </p>
-            <p>
-              Today, I balance technical expertise with strategic thinking, helping organizations leverage their data assets to gain competitive advantages in an increasingly data-driven landscape.
+            <p className="text-base text-justify text-foreground/90 leading-relaxed">
+              Today, I balance technical expertise with strategic thinking, focusing on creating end-to-end data solutions that extract meaningful patterns from complex datasets. My diverse experience across the data ecosystem—from visualization to engineering to AI—allows me to approach problems with a comprehensive perspective, helping organizations leverage their data assets for competitive advantage.
             </p>
           </div>
         </div>

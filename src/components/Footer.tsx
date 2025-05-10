@@ -27,23 +27,23 @@ const Footer = () => {
         <div id="contact">
           <h3 className="font-bold text-lg mb-4">Connect</h3>
           <div className="flex space-x-4 mb-4">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors duration-200 p-2 rounded-full hover:bg-secondary">
+            <a href="https://github.com/divyashah99" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors duration-200 p-2 rounded-full hover:bg-secondary">
               <Github className="h-5 w-5" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors duration-200 p-2 rounded-full hover:bg-secondary">
+            <a href="https://www.linkedin.com/in/divyashah99/" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors duration-200 p-2 rounded-full hover:bg-secondary">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="mailto:contact@example.com" className="hover:text-accent transition-colors duration-200 p-2 rounded-full hover:bg-secondary">
+            <a href="mailto:shah.divyab99@gmail.com" className="hover:text-accent transition-colors duration-200 p-2 rounded-full hover:bg-secondary">
               <Mail className="h-5 w-5" />
             </a>
           </div>
-          <p className="text-muted-foreground">contact@example.com</p>
+          <p className="text-muted-foreground">shah.divyab99@gmail.com</p>
         </div>
       </div>
       
       <div className="container mt-8 pt-8 border-t border-border">
         <p className="text-center text-muted-foreground text-sm">
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} Divya Babulal Shah. All rights reserved.
         </p>
       </div>
     </footer>

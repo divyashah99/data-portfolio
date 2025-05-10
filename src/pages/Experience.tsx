@@ -5,60 +5,48 @@ import SectionHeader from "@/components/SectionHeader";
 import ExperienceItem from "@/components/ExperienceItem";
 import { Separator } from "@/components/ui/separator";
 import { Progress } from "@/components/ui/progress";
+import { ExternalLink } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 const workExperience = [
   {
-    title: "Senior Data Scientist",
-    company: "TechCorp Inc.",
-    period: "Jan 2020 - Present",
-    description: "Led a team of data scientists in developing machine learning models for customer segmentation and product recommendation. Improved conversion rates by 23% through optimized targeting algorithms.",
-    skills: ["Python", "TensorFlow", "SQL", "AWS", "Team Leadership"]
+    title: "Data Engineer Co-op",
+    company: "Fidelity Investments",
+    period: "July 2024 - Dec 2024",
+    description: "Working on data pipeline development, ETL processes, and data visualization to deliver insights to stakeholders.",
+    skills: ["Python", "AWS S3", "Snowflake", "Power BI", "Tableau", "ETL", "Web Scraping"]
   },
   {
-    title: "Data Engineer",
-    company: "DataFlow Systems",
-    period: "Mar 2018 - Dec 2019",
-    description: "Designed and implemented scalable ETL pipelines handling 500GB+ of daily data. Optimized database performance resulting in 35% faster query response times.",
-    skills: ["Spark", "Kafka", "Python", "AWS", "PostgreSQL"]
-  },
-  {
-    title: "Data Analyst",
-    company: "Analytics Plus",
-    period: "Jul 2016 - Feb 2018",
-    description: "Conducted statistical analysis on customer data to identify market trends. Created interactive dashboards for executive reporting that reduced manual reporting time by 75%.",
-    skills: ["SQL", "Tableau", "Excel", "Statistics", "Business Intelligence"]
+    title: "Systems Engineer",
+    company: "Tata Consultancy Services",
+    period: "June 2021 - Nov 2022",
+    description: "Developed custom applications and optimized user interfaces to improve customer experience and data collection processes.",
+    skills: ["HTML", "CSS", "JavaScript", "jQuery", "SQL", "Python", "Data Analysis"]
   },
 ];
 
-const skills = [
-  { name: "Python", level: 95 },
-  { name: "Machine Learning", level: 90 },
-  { name: "SQL", level: 85 },
-  { name: "Data Visualization", level: 90 },
-  { name: "Big Data Technologies", level: 80 },
-  { name: "Cloud Platforms", level: 85 },
-];
+// Update the detailed descriptions for each role
+const experienceDetails = {
+  "Data Engineer Co-op": [
+    "Designed and implemented scalable data pipelines using Python, AWS S3, and Snowflake, automating data ingestion and transformation, eliminating manual data processing efforts.",
+    "Optimized and managed Snowflake ETL workflows, including Snowpipe, streams, and scheduled tasks, significantly enhancing data freshness and efficiency.",
+    "Engineered an advanced web data extraction solution using Python and BeautifulSoup, leveraging concurrent processing to maximize data extraction speed and accuracy.",
+    "Developed impactful interactive dashboards in Power BI and Tableau, utilizing DAX and Power Query to drive data exploration and insights for stakeholders."
+  ],
+  "Systems Engineer": [
+    "Developed and deployed 50+ custom application forms using HTML, CSS, JavaScript, and jQuery, optimizing data collection processes and enhancing user interactions.",
+    "Revamped client user interfaces, improving user experience by 30% and significantly boosting customer satisfaction.",
+    "Crafted and optimized SQL queries, reducing application errors by 25% and improving data accuracy by 20%.",
+    "Extracted actionable insights from form submissions, payment times, and user demographics using Python-driven analysis, increasing form completion rates by 25% and reducing payment processing times by 30%."
+  ]
+};
 
 const certifications = [
   {
-    name: "AWS Certified Data Analytics - Specialty",
+    name: "AWS Certified Data Engineer",
     issuer: "Amazon Web Services",
-    date: "2022"
-  },
-  {
-    name: "Google Professional Data Engineer",
-    issuer: "Google Cloud",
-    date: "2021"
-  },
-  {
-    name: "Microsoft Certified: Azure Data Scientist Associate",
-    issuer: "Microsoft",
-    date: "2020"
-  },
-  {
-    name: "TensorFlow Developer Certificate",
-    issuer: "Google",
-    date: "2019"
+    date: "2024",
+    link: "https://www.credly.com/badges/64d26c10-5a96-49c2-b6b7-4ffe2d39cd42/public_url"
   },
 ];
 
@@ -87,6 +75,7 @@ const Experience = () => {
                     period={job.period}
                     description={job.description}
                     skills={job.skills}
+                    details={experienceDetails[job.title]}
                   />
                   {index < workExperience.length - 1 && <Separator className="my-10" />}
                 </div>
@@ -94,54 +83,124 @@ const Experience = () => {
             </div>
             
             <div className="space-y-12">
-              {/* Skills */}
+              {/* Education */}
               <div>
-                <h2 className="text-2xl font-bold mb-6">Skills</h2>
-                <div className="space-y-5">
-                  {skills.map((skill, index) => (
-                    <div key={index} className="space-y-2">
-                      <div className="flex justify-between">
-                        <h3 className="text-sm font-medium">{skill.name}</h3>
-                        <span className="text-sm text-muted-foreground">{skill.level}%</span>
-                      </div>
-                      <Progress value={skill.level} className="h-2" />
+                <h2 className="text-2xl font-bold mb-6">Education</h2>
+                <div className="space-y-4">
+                  <div className="p-4 border rounded-lg">
+                    <h3 className="font-medium">Master of Science in Data Analytics Engineering</h3>
+                    <div className="text-sm text-muted-foreground flex justify-between mt-1">
+                      <span>Northeastern University</span>
+                      <span>2023-2025</span>
                     </div>
-                  ))}
+                  </div>
+                  <div className="p-4 border rounded-lg">
+                    <h3 className="font-medium">Bachelor of Technology in Electrical Engineering</h3>
+                    <div className="text-sm text-muted-foreground flex justify-between mt-1">
+                      <span>University of Mumbai</span>
+                      <span>2017-2021</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-              
+  
               {/* Certifications */}
               <div>
                 <h2 className="text-2xl font-bold mb-6">Certifications</h2>
                 <div className="space-y-4">
                   {certifications.map((cert, index) => (
                     <div key={index} className="p-4 border rounded-lg">
-                      <h3 className="font-medium">{cert.name}</h3>
-                      <div className="text-sm text-muted-foreground flex justify-between mt-1">
-                        <span>{cert.issuer}</span>
-                        <span>{cert.date}</span>
+                      <div>
+                        {cert.link ? (
+                          <a 
+                            href={cert.link} 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="font-medium hover:text-accent transition-colors flex items-center gap-2 group"
+                          >
+                            {cert.name}
+                            <ExternalLink className="h-4 w-4 opacity-70 group-hover:opacity-100 transition-opacity" />
+                          </a>
+                        ) : (
+                          <h3 className="font-medium">{cert.name}</h3>
+                        )}
+                        <div className="text-sm text-muted-foreground flex justify-between mt-1">
+                          <span>{cert.issuer}</span>
+                          <span>{cert.date}</span>
+                        </div>
                       </div>
                     </div>
                   ))}
                 </div>
               </div>
-              
-              {/* Education */}
+  
+              {/* Skills */}
               <div>
-                <h2 className="text-2xl font-bold mb-6">Education</h2>
-                <div className="space-y-4">
-                  <div className="p-4 border rounded-lg">
-                    <h3 className="font-medium">Master of Science in Data Science</h3>
-                    <div className="text-sm text-muted-foreground flex justify-between mt-1">
-                      <span>Stanford University</span>
-                      <span>2015-2016</span>
+                <h2 className="text-2xl font-bold mb-6">Skills</h2>
+                <div className="space-y-6">
+                  <div className="space-y-3">
+                    <h3 className="text-base font-semibold text-accent">Programming Languages</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["Python", "R", "SQL", "MATLAB", "JavaScript", "HTML", "CSS"].map((skill) => (
+                        <Badge key={skill} variant="outline" className="px-3 py-1">
+                          {skill}
+                        </Badge>
+                      ))}
                     </div>
                   </div>
-                  <div className="p-4 border rounded-lg">
-                    <h3 className="font-medium">Bachelor of Science in Computer Science</h3>
-                    <div className="text-sm text-muted-foreground flex justify-between mt-1">
-                      <span>MIT</span>
-                      <span>2011-2015</span>
+                  
+                  <div className="space-y-3">
+                    <h3 className="text-base font-semibold text-accent">Database & Modeling</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["Snowflake", "AWS Redshift", "BigQuery", "MySQL", "NoSQL", "Data Warehousing", "Data Lakes"].map((skill) => (
+                        <Badge key={skill} variant="outline" className="px-3 py-1">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-3">
+                    <h3 className="text-base font-semibold text-accent">Libraries & Frameworks</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-Learn", "TensorFlow", "Keras", "BeautifulSoup", "LangChain", "Hugging Face"].map((skill) => (
+                        <Badge key={skill} variant="outline" className="px-3 py-1">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-3">
+                    <h3 className="text-base font-semibold text-accent">Methodology</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["ETL", "Machine Learning", "Deep Learning", "Data Mining", "Data Visualization", "NLP", "EDA", "Time Series Forecasting"].map((skill) => (
+                        <Badge key={skill} variant="outline" className="px-3 py-1">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-3">
+                    <h3 className="text-base font-semibold text-accent">Business Intelligence</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["Tableau", "Power BI", "DAX", "Power Query"].map((skill) => (
+                        <Badge key={skill} variant="outline" className="px-3 py-1">
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <div className="space-y-3">
+                    <h3 className="text-base font-semibold text-accent">Cloud & DevOps</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {["AWS S3", "AWS Lambda", "AWS Glue", "Snowpipe", "Google Cloud", "BigQuery", "Vertex AI", "Docker", "Kubernetes", "GitHub"].map((skill) => (
+                        <Badge key={skill} variant="outline" className="px-3 py-1">
+                          {skill}
+                        </Badge>
+                      ))}
                     </div>
                   </div>
                 </div>

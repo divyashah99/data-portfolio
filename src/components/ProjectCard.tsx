@@ -30,7 +30,7 @@ const ProjectCard = ({ title, description, image, category, technologies, link }
           </Badge>
         </div>
         <CardTitle className="text-xl mt-2">{title}</CardTitle>
-        <CardDescription className="line-clamp-2">{description}</CardDescription>
+        <CardDescription className="text-sm">{description}</CardDescription>
       </CardHeader>
       <CardContent>
         <div className="flex flex-wrap gap-2">
