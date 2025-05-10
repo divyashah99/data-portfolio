@@ -5,12 +5,12 @@ import SectionHeader from "@/components/SectionHeader";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { CheckCircle, Download } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 
 const About = () => {
   return (
     <Layout>
-      <section className="py-16 md:py-24 bg-secondary/30">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-secondary/30 to-background">
         <div className="container px-4 md:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -24,16 +24,13 @@ const About = () => {
                 With over 8 years of experience in the data space, I've worked across diverse industries including finance, e-commerce, healthcare, and tech. My passion lies in transforming complex data challenges into actionable solutions that drive business value.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button className="bg-accent hover:bg-accent/90">
-                  <Download className="mr-2 h-4 w-4" /> Download Resume
-                </Button>
                 <Button variant="outline" asChild>
                   <a href="#contact">Contact Me</a>
                 </Button>
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="w-64 h-64 bg-muted rounded-full overflow-hidden">
+              <div className="w-64 h-64 bg-muted rounded-full overflow-hidden shadow-lg">
                 <img 
                   src="/placeholder.svg" 
                   alt="Profile" 
@@ -50,7 +47,7 @@ const About = () => {
         <div className="container px-4 md:px-6">
           <SectionHeader title="My Approach" align="left" />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card>
+            <Card className="shadow-md hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <div className="mb-4 rounded-full bg-secondary/80 p-2 w-fit">
                   <CheckCircle className="h-5 w-5 text-accent" />
@@ -61,7 +58,7 @@ const About = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="shadow-md hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <div className="mb-4 rounded-full bg-secondary/80 p-2 w-fit">
                   <CheckCircle className="h-5 w-5 text-accent" />
@@ -72,7 +69,7 @@ const About = () => {
                 </p>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="shadow-md hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <div className="mb-4 rounded-full bg-secondary/80 p-2 w-fit">
                   <CheckCircle className="h-5 w-5 text-accent" />
@@ -88,7 +85,7 @@ const About = () => {
       </section>
 
       {/* Professional Journey */}
-      <section className="py-16 bg-secondary/30">
+      <section className="py-16 bg-gradient-to-b from-background to-secondary/30">
         <div className="container px-4 md:px-6">
           <SectionHeader title="Professional Journey" align="left" />
           <div className="prose max-w-none">
@@ -113,7 +110,7 @@ const About = () => {
         <div className="container px-4 md:px-6">
           <SectionHeader title="Core Values" align="left" />
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            <div>
+            <div className="p-6 rounded-lg border border-border bg-card/50 shadow-sm">
               <h3 className="text-xl font-bold mb-4">Innovation</h3>
               <p className="text-muted-foreground mb-8">
                 I constantly seek innovative approaches to data challenges, exploring new methodologies and technologies to deliver better results.
@@ -124,7 +121,7 @@ const About = () => {
                 I hold myself to high standards of technical excellence, ensuring that my solutions are robust, efficient, and maintainable.
               </p>
             </div>
-            <div>
+            <div className="p-6 rounded-lg border border-border bg-card/50 shadow-sm">
               <h3 className="text-xl font-bold mb-4">Collaboration</h3>
               <p className="text-muted-foreground mb-8">
                 I believe the best solutions emerge from collaborative efforts, working closely with stakeholders to understand needs and deliver tailored solutions.
@@ -140,15 +137,15 @@ const About = () => {
       </section>
 
       {/* Personal Interests */}
-      <section className="py-16 bg-accent text-accent-foreground">
+      <section className="py-16 bg-gradient-to-b from-secondary/30 to-accent/90 text-accent-foreground">
         <div className="container px-4 md:px-6">
           <SectionHeader title="Beyond the Data" align="center" />
-          <div className="text-center max-w-3xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto backdrop-blur-sm bg-white/5 p-8 rounded-lg shadow-lg">
             <p className="mb-8">
               When I'm not exploring datasets or building models, you'll find me hiking mountain trails, reading about emerging technologies, participating in data science competitions, and mentoring aspiring data professionals. I believe that diverse experiences enrich our perspectives and ultimately improve our work.
             </p>
             <Separator className="my-8" />
-            <p className="text-lg font-medium">
+            <p className="text-lg font-medium italic">
               "The goal is to turn data into information, and information into insight." - Carly Fiorina
             </p>
           </div>

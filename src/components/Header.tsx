@@ -1,11 +1,21 @@
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
+    
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
@@ -20,10 +30,12 @@ const Header = () => {
   const inactiveClassName = "text-foreground hover:text-accent transition-colors";
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur-sm border-b border-border">
+    <header className={`sticky top-0 z-50 w-full backdrop-blur-sm transition-all duration-200 ${
+      scrolled ? "bg-background/90 shadow-sm" : "bg-background/80"
+    } border-b border-border`}>
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center">
-          <NavLink to="/" className="font-bold text-xl">
+          <NavLink to="/" className="font-bold text-xl tracking-tight">
             Portfolio<span className="text-accent">.</span>
           </NavLink>
         </div>
@@ -35,14 +47,14 @@ const Header = () => {
               key={item.name}
               to={item.path}
               className={({ isActive }) =>
-                isActive ? activeClassName : inactiveClassName
+                `${isActive ? activeClassName : inactiveClassName} px-3 py-2`
               }
               end
             >
               {item.name}
             </NavLink>
           ))}
-          <Button className="bg-accent hover:bg-accent/90">
+          <Button className="bg-accent hover:bg-accent/90 shadow-sm hover:shadow-md transition-all">
             <a href="#contact">Contact</a>
           </Button>
         </nav>
@@ -64,7 +76,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden fixed inset-0 top-16 bg-background z-40 animate-fade-in">
+          <div className="md:hidden fixed inset-0 top-16 bg-background/95 backdrop-blur-md z-40 animate-fade-in">
             <nav className="flex flex-col items-center justify-center h-full space-y-8">
               {navItems.map((item) => (
                 <NavLink
@@ -79,7 +91,7 @@ const Header = () => {
                   {item.name}
                 </NavLink>
               ))}
-              <Button className="bg-accent hover:bg-accent/90">
+              <Button className="bg-accent hover:bg-accent/90 shadow-sm hover:shadow-md transition-all">
                 <a href="#contact" onClick={toggleMenu}>Contact</a>
               </Button>
             </nav>
