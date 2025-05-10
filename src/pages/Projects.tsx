@@ -26,10 +26,19 @@ const projectsData = [
     technologies: ["Power BI", "Data Visualization", "KPI Analysis"],
     link: "https://github.com/divyashah99/Myntra-Sales-Analysis/blob/main/MyntraSalesDashboard.pdf"
   },
+  {
+    id: 3,
+    title: "SFO Air Traffic Analysis",
+    description: "Detailed analysis of San Francisco International Airport traffic patterns, passenger flows, and operational metrics to identify optimization opportunities.",
+    image: "/images/pic18.jpg",
+    category: "data-visualization",
+    technologies: ["Data Analysis", "Visualization", "Transportation Analytics"],
+    link: "https://sites.google.com/view/projectgroup9/"
+  },
   
   // Data Analytics Projects
   {
-    id: 3,
+    id: 4,
     title: "Youtube API Analysis",
     description: "Analysis of YouTube channel statistics using the YouTube Data API, performing exploratory data analysis on video metrics with visualizations of key insights.",
     image: "/images/pic13.png",
@@ -38,22 +47,13 @@ const projectsData = [
     link: "https://github.com/divyashah99/Youtube-API-Analysis"
   },
   {
-    id: 4,
+    id: 5,
     title: "Facebook-AdWords Comparative Analysis",
     description: "Comprehensive analysis comparing Facebook and Google AdWords advertising platforms, evaluating performance metrics, ROI, and audience targeting effectiveness.",
-    image: "/images/placeholder.jpg",
+    image: "/images/pic19.png",
     category: "data-analytics",
     technologies: ["Data Analysis", "Marketing Analytics", "Visualization", "ROI Analysis"],
     link: "https://github.com/divyashah99/facebook-adwords-comparative-analysis"
-  },
-  {
-    id: 5,
-    title: "SFO Air Traffic Analysis",
-    description: "Detailed analysis of San Francisco International Airport traffic patterns, passenger flows, and operational metrics to identify optimization opportunities.",
-    image: "/images/placeholder.jpg",
-    category: "data-analytics",
-    technologies: ["Data Analysis", "Visualization", "Transportation Analytics"],
-    link: "https://sites.google.com/view/projectgroup9/"
   },
   {
     id: 6,
@@ -115,7 +115,7 @@ const projectsData = [
     id: 12,
     title: "Image Captioning",
     description: "Deep learning model that automatically generates descriptive captions for images using computer vision and natural language processing techniques.",
-    image: "/images/placeholder.jpg",
+    image: "/images/pic20.png",
     category: "data-science",
     technologies: ["Python", "Deep Learning", "Computer Vision", "NLP", "TensorFlow"],
     link: "https://github.com/divyashah99/image-captioning"
@@ -135,7 +135,7 @@ const projectsData = [
     id: 14,
     title: "Realtime Data Streaming Pipeline",
     description: "End-to-end data streaming solution that processes and analyzes data in real-time using modern streaming technologies for immediate insights and actions.",
-    image: "/images/placeholder.jpg",
+    image: "/images/pic21.png",
     category: "data-engineering",
     technologies: ["Kafka", "Spark Streaming", "AWS", "Real-time Analytics"],
     link: "https://github.com/divyashah99/realtime-data-streaming-pipeline"
@@ -146,7 +146,7 @@ const projectsData = [
     id: 15,
     title: "Chat with Database",
     description: "Natural language interface that allows users to query databases using conversational language, translating plain English to SQL queries.",
-    image: "/images/placeholder.jpg",
+    image: "/images/pic22.png",
     category: "gen-ai",
     technologies: ["Python", "NLP", "SQL", "LLMs", "Database Integration"],
     link: "https://github.com/DataBridgeAI/ChatwithDatabase/tree/main"
