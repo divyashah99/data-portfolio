@@ -181,7 +181,7 @@ const projectsData = [
   id: 16,
   title: "NYC Taxi Trip Analytics",
   description: "Modern data engineering pipeline transforming NYC taxi trip data using dbt and dimensional modeling.",
-  image: "/images/pic23.jpg", 
+  image: "/images/pic23.png", 
   category: "data-engineering",
   technologies: ["dbt", "Data Engineering", "Dimensional Modeling", "ETL"],
   links: [
