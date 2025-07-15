@@ -1,7 +1,13 @@
-
 import React from "react";
 import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { ArrowUpRight } from "lucide-react";
 
 interface ProjectCardProps {
@@ -10,10 +16,17 @@ interface ProjectCardProps {
   image: string;
   category: string;
   technologies: string[];
-  link?: string;
+  links?: { type: string; url: string }[];
 }
 
-const ProjectCard = ({ title, description, image, category, technologies, link }: ProjectCardProps) => {
+const ProjectCard = ({
+  title,
+  description,
+  image,
+  category,
+  technologies,
+  links = [],
+}: ProjectCardProps) => {
   return (
     <Card className="project-card overflow-hidden border border-border">
       <div className="aspect-video w-full overflow-hidden">
@@ -41,16 +54,19 @@ const ProjectCard = ({ title, description, image, category, technologies, link }
           ))}
         </div>
       </CardContent>
-      {link && (
-        <CardFooter>
-          <a
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center text-sm font-medium text-accent hover:underline"
-          >
-            View Project <ArrowUpRight className="ml-1 h-4 w-4" />
-          </a>
+      {links.length > 0 && (
+        <CardFooter className="flex flex-wrap gap-4">
+          {links.map((link, index) => (
+            <a
+              key={index}
+              href={link.url}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center text-sm font-medium text-accent hover:underline"
+            >
+              View on {link.type} <ArrowUpRight className="ml-1 h-4 w-4" />
+            </a>
+          ))}
         </CardFooter>
       )}
     </Card>
