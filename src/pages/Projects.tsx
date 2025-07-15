@@ -8,14 +8,16 @@ import { Badge } from "@/components/ui/badge";
 
 const projectsData = [
   // Data Visualization & BI Projects
-  {
+   {
     id: 1,
     title: "Netflix Data Analysis",
     description: "Interactive Tableau visualizations exploring Netflix content distribution, genre preferences, release patterns, and user ratings to uncover valuable insights on user behavior and content trends.",
     image: "/images/pic17.jpg",
     category: "data-visualization",
     technologies: ["Tableau", "Data Visualization", "Exploratory Data Analysis"],
-    link: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NetflixDashboard_17073368231790/Netflix?publish=yes"
+    links: [
+      { type: "Tableau", url: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NetflixDashboard_17073368231790/Netflix?publish=yes" }
+    ]
   },
   {
     id: 2,
@@ -24,7 +26,9 @@ const projectsData = [
     image: "/images/pic11.jpg",
     category: "data-visualization",
     technologies: ["Power BI", "Data Visualization", "KPI Analysis"],
-    link: "https://github.com/divyashah99/Myntra-Sales-Analysis/blob/main/MyntraSalesDashboard.pdf"
+    links: [
+      { type: "Power BI", url: "https://github.com/divyashah99/Myntra-Sales-Analysis/blob/main/MyntraSalesDashboard.pdf" }
+    ]
   },
   {
     id: 3,
@@ -33,10 +37,11 @@ const projectsData = [
     image: "/images/pic18.jpg",
     category: "data-visualization",
     technologies: ["Data Analysis", "Visualization", "Transportation Analytics"],
-    link: "https://sites.google.com/view/projectgroup9/"
+    links: [
+      { type: "Website", url: "https://sites.google.com/view/projectgroup9/" }
+    ]
   },
-  
-  // Data Analytics Projects
+
   {
     id: 4,
     title: "Youtube API Analysis",
@@ -44,7 +49,9 @@ const projectsData = [
     image: "/images/pic13.png",
     category: "data-analytics",
     technologies: ["Python", "YouTube API", "Data Visualization", "EDA"],
-    link: "https://github.com/divyashah99/Youtube-API-Analysis"
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/Youtube-API-Analysis" }
+    ]
   },
   {
     id: 5,
@@ -53,7 +60,9 @@ const projectsData = [
     image: "/images/pic19.png",
     category: "data-analytics",
     technologies: ["Data Analysis", "Marketing Analytics", "Visualization", "ROI Analysis"],
-    link: "https://github.com/divyashah99/facebook-adwords-comparative-analysis"
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/facebook-adwords-comparative-analysis" }
+    ]
   },
   {
     id: 6,
@@ -62,7 +71,9 @@ const projectsData = [
     image: "/images/pic14.jpg",
     category: "data-analytics",
     technologies: ["SQL", "Data Cleaning", "Data Quality"],
-    link: "https://github.com/divyashah99/Data-Cleaning-in-SQL"
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/Data-Cleaning-in-SQL" }
+    ]
   },
   {
     id: 7,
@@ -71,7 +82,9 @@ const projectsData = [
     image: "/images/pic16.jpg",
     category: "data-analytics",
     technologies: ["Python", "Data Cleaning", "EDA", "Statistical Analysis"],
-    link: "https://github.com/divyashah99/Los-Angeles-Crime-Analysis"
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/Los-Angeles-Crime-Analysis" }
+    ]
   },
   {
     id: 8,
@@ -80,10 +93,11 @@ const projectsData = [
     image: "/images/pic15.jpg",
     category: "data-analytics",
     technologies: ["Python", "Data Cleaning", "Data Transformation"],
-    link: "https://github.com/divyashah99/FIFA-21"
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/FIFA-21" }
+    ]
   },
-  
-  // Data Science & ML Projects
+
   {
     id: 9,
     title: "Fraudulent Transactions Detection",
@@ -91,7 +105,9 @@ const projectsData = [
     image: "/images/pic10.jpg",
     category: "data-science",
     technologies: ["Python", "Machine Learning", "Data Cleaning", "EDA"],
-    link: "https://github.com/divyashah99/Fraud-Detection"
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/Fraud-Detection" }
+    ]
   },
   {
     id: 10,
@@ -100,7 +116,9 @@ const projectsData = [
     image: "/images/pic12.jpg",
     category: "data-science",
     technologies: ["Python", "RFM Analysis", "Customer Segmentation", "Data Analysis"],
-    link: "https://github.com/divyashah99/Customer-Segmentation-using-RFM-Analysis"
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/Customer-Segmentation-using-RFM-Analysis" }
+    ]
   },
   {
     id: 11,
@@ -109,7 +127,9 @@ const projectsData = [
     image: "/images/pic13.jpg",
     category: "data-science",
     technologies: ["Python", "Cluster Analysis", "Web Scraping", "Text Analysis"],
-    link: "https://github.com/divyashah99/Data-Science-Book-Analysis"
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/Data-Science-Book-Analysis" }
+    ]
   },
   {
     id: 12,
@@ -118,10 +138,11 @@ const projectsData = [
     image: "/images/pic20.png",
     category: "data-science",
     technologies: ["Python", "Deep Learning", "Computer Vision", "NLP", "TensorFlow"],
-    link: "https://github.com/divyashah99/image-captioning"
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/image-captioning" }
+    ]
   },
-  
-  // Data Engineering Projects
+
   {
     id: 13,
     title: "ETL File Automation",
@@ -129,7 +150,9 @@ const projectsData = [
     image: "/images/architecture.png",
     category: "data-engineering",
     technologies: ["AWS Lambda", "AWS Glue", "Snowflake", "Snowpipe", "ETL"],
-    link: "https://github.com/divyashah99/aws-sftp-data-pipeline"
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/aws-sftp-data-pipeline" }
+    ]
   },
   {
     id: 14,
@@ -138,10 +161,11 @@ const projectsData = [
     image: "/images/pic21.png",
     category: "data-engineering",
     technologies: ["Kafka", "Spark Streaming", "AWS", "Real-time Analytics"],
-    link: "https://github.com/divyashah99/realtime-data-streaming-pipeline"
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/realtime-data-streaming-pipeline" }
+    ]
   },
-  
-  // Gen-AI Projects
+
   {
     id: 15,
     title: "Chat with Database",
@@ -149,8 +173,24 @@ const projectsData = [
     image: "/images/pic22.png",
     category: "gen-ai",
     technologies: ["Python", "NLP", "SQL", "LLMs", "Database Integration"],
-    link: "https://github.com/DataBridgeAI/ChatwithDatabase/tree/main"
-  }
+    links: [
+      { type: "GitHub", url: "https://github.com/DataBridgeAI/ChatwithDatabase/tree/main" }
+    ]
+  },
+  {
+  id: 16,
+  title: "NYC Taxi Trip Analytics",
+  description: "Modern data engineering pipeline transforming NYC taxi trip data using dbt and dimensional modeling.",
+  image: "/images/pic23.jpg", 
+  category: "data-engineering",
+  technologies: ["dbt", "Data Engineering", "Dimensional Modeling", "ETL"],
+  links: [
+    { type: "GitHub", url: "https://github.com/divyashah99/nyc_taxi_dbt" },
+    { type: "Tableau", url: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NYC_Taxi_Analysis/Dashboard1" }
+  ]
+}
+
+  
 ];
 
 const categories = [
@@ -223,7 +263,7 @@ const Projects = () => {
                   image={project.image}
                   category={project.category}
                   technologies={project.technologies}
-                  link={project.link}
+                  links={project.links}
                 />
               ))}
             </div>
