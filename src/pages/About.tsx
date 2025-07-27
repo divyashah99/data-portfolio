@@ -91,7 +91,7 @@ const About = () => {
           <SectionHeader title="Professional Journey" align="left" />
           <div className="max-w-none">
             <p className="mb-5 text-base text-justify text-foreground/90 leading-relaxed">
-              My journey in the data world began with a strong foundation in engineering, where I developed a passion for transforming complex information into actionable insights. Starting as a Systems Engineer at TCS, I quickly honed my skills in application development and data collection processes.
+              My journey in the data world began with a strong engineering foundation, sparking a passion for transforming data into insights. Starting as a Data Engineer at TCS, I quickly honed my skills in building data pipelines, designing models, and streamlining data collection processes.
             </p>
             <p className="mb-5 text-base text-justify text-foreground/90 leading-relaxed">
               As my career progressed, I expanded my expertise into data engineering at Fidelity Investments, where I designed scalable data pipelines using Python, AWS, and Snowflake. I've developed a particular talent for automating ETL workflows and creating interactive dashboards that drive stakeholder decision-making. The tangible impact of my work—seeing how data-driven solutions improved business outcomes—fueled my continued growth.
