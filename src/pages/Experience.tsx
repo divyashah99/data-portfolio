@@ -17,11 +17,11 @@ const workExperience = [
     skills: ["Python", "AWS S3", "Snowflake", "Power BI", "Tableau", "ETL", "Web Scraping"]
   },
   {
-    title: "Systems Engineer",
+    title: "Data Engineer",
     company: "Tata Consultancy Services",
     period: "June 2021 - Nov 2022",
-    description: "Developed custom applications and optimized user interfaces to improve customer experience and data collection processes.",
-    skills: ["HTML", "CSS", "JavaScript", "jQuery", "SQL", "Python", "Data Analysis"]
+    description: "Designed and implemented data collection, automation, and analytics solutions using full-stack web technologies, SQL, Python, and Power BI, significantly improving efficiency, integration, and data-driven insights.",
+    skills: ["ETL","HTML", "CSS", "JavaScript", "jQuery", "SQL", "Python", "Data Analysis"]
   },
 ];
 
@@ -33,11 +33,12 @@ const experienceDetails = {
     "Engineered an advanced web data extraction solution using Python and BeautifulSoup, leveraging concurrent processing to maximize data extraction speed and accuracy.",
     "Developed impactful interactive dashboards in Power BI and Tableau, utilizing DAX and Power Query to drive data exploration and insights for stakeholders."
   ],
-  "Systems Engineer": [
-    "Developed and deployed 50+ custom application forms using HTML, CSS, JavaScript, and jQuery, optimizing data collection processes and enhancing user interactions.",
-    "Revamped client user interfaces, improving user experience by 30% and significantly boosting customer satisfaction.",
-    "Crafted and optimized SQL queries, reducing application errors by 25% and improving data accuracy by 20%.",
-    "Extracted actionable insights from form submissions, payment times, and user demographics using Python-driven analysis, increasing form completion rates by 25% and reducing payment processing times by 30%."
+  "Data Engineer": [
+   "Build 50+ dynamic web forms (HTML, CSS, JS, jQuery), streamlining data collection and enhancing efficiency across teams",
+   "Designed standardized data models to unify application structures, reducing integration issues and improving maintainability",
+   "Automated ETL, reporting, and integration workflows using SQL and SSIS, saving 10+ hours per week and accelerating project delivery timelines",
+   "Analyzed form behavior and submission data using Python, increasing completion rates by 25% through UX optimizations and data-driven improvements",
+   "Developed advanced Power BI reports with custom DAX measures and calculated columns to support complex KPIs and business logic for stakeholder dashboards"
   ]
 };
 
