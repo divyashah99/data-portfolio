@@ -12,14 +12,12 @@ const workExperience = [
   {
     title: "Data Engineer Co-op",
     company: "Fidelity Investments",
-    period: "July 2024 - Dec 2024",
     description: "Working on data pipeline development, ETL processes, and data visualization to deliver insights to stakeholders.",
     skills: ["Python", "AWS S3", "Snowflake", "Power BI", "Tableau", "ETL", "Web Scraping"]
   },
   {
     title: "Data Engineer",
     company: "Tata Consultancy Services",
-    period: "June 2021 - Nov 2022",
     description: "Designed and implemented data collection, automation, and analytics solutions using full-stack web technologies, SQL, Python, and Power BI, significantly improving efficiency, integration, and data-driven insights.",
     skills: ["ETL","HTML", "CSS", "JavaScript", "jQuery", "SQL", "Python", "Data Analysis"]
   },
