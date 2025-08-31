@@ -7,6 +7,18 @@ import ProjectCard from "@/components/ProjectCard";
 import { Badge } from "@/components/ui/badge";
 
 const projectsData = [
+      {
+  id: 2,
+  title: "NYC Taxi Trip Analytics",
+  description: "Modern data engineering pipeline transforming NYC taxi trip data using dbt and dimensional modeling.",
+  image: "/images/pic23.png", 
+  category: "data-engineering",
+  technologies: ["dbt", "Data Engineering", "Dimensional Modeling", "ETL"],
+  links: [
+    { type: "GitHub", url: "https://github.com/divyashah99/nyc_taxi_dbt" },
+    { type: "Tableau", url: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NYC_Taxi_Analysis/Dashboard1" }
+  ]
+},
     {
   id: 1,
   title: "Employee Data ETL Pipeline",
@@ -18,6 +30,40 @@ const projectsData = [
     { type: "GitHub", url: "https://github.com/divyashah99/gcp-employee-etl-pipeline" }
   ]
 },
+    {
+    id: 4,
+    title: "Realtime Data Streaming Pipeline",
+    description: "End-to-end data streaming solution that processes and analyzes data in real-time using modern streaming technologies for immediate insights and actions.",
+    image: "/images/pic21.png",
+    category: "data-engineering",
+    technologies: ["Kafka", "Spark Streaming", "AWS", "Real-time Analytics"],
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/realtime-data-streaming-pipeline" }
+    ]
+  },
+
+  {
+    id: 3,
+    title: "Chat with Database",
+    description: "Natural language interface that allows users to query databases using conversational language, translating plain English to SQL queries.",
+    image: "/images/pic22.png",
+    category: "gen-ai",
+    technologies: ["Python", "NLP", "SQL", "LLMs", "Database Integration"],
+    links: [
+      { type: "GitHub", url: "https://github.com/DataBridgeAI/ChatwithDatabase/tree/main" }
+    ]
+  },
+      {
+    id: 5,
+    title: "ETL File Automation",
+    description: "Serverless data pipeline automating file transfer, transformation, and ingestion using AWS Lambda, Glue, SNS, and Snowpipe to load data into Snowflake in real-time.",
+    image: "/images/architecture.png",
+    category: "data-engineering",
+    technologies: ["AWS Lambda", "AWS Glue", "Snowflake", "Snowpipe", "ETL"],
+    links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/aws-sftp-data-pipeline" }
+    ]
+  },
   // Data Visualization & BI Projects
    {
     id: 17,
@@ -152,64 +198,16 @@ const projectsData = [
     links: [
       { type: "GitHub", url: "https://github.com/divyashah99/image-captioning" }
     ]
-  },
-
-  {
-    id: 5,
-    title: "ETL File Automation",
-    description: "Serverless data pipeline automating file transfer, transformation, and ingestion using AWS Lambda, Glue, SNS, and Snowpipe to load data into Snowflake in real-time.",
-    image: "/images/architecture.png",
-    category: "data-engineering",
-    technologies: ["AWS Lambda", "AWS Glue", "Snowflake", "Snowpipe", "ETL"],
-    links: [
-      { type: "GitHub", url: "https://github.com/divyashah99/aws-sftp-data-pipeline" }
-    ]
-  },
-  {
-    id: 4,
-    title: "Realtime Data Streaming Pipeline",
-    description: "End-to-end data streaming solution that processes and analyzes data in real-time using modern streaming technologies for immediate insights and actions.",
-    image: "/images/pic21.png",
-    category: "data-engineering",
-    technologies: ["Kafka", "Spark Streaming", "AWS", "Real-time Analytics"],
-    links: [
-      { type: "GitHub", url: "https://github.com/divyashah99/realtime-data-streaming-pipeline" }
-    ]
-  },
-
-  {
-    id: 3,
-    title: "Chat with Database",
-    description: "Natural language interface that allows users to query databases using conversational language, translating plain English to SQL queries.",
-    image: "/images/pic22.png",
-    category: "gen-ai",
-    technologies: ["Python", "NLP", "SQL", "LLMs", "Database Integration"],
-    links: [
-      { type: "GitHub", url: "https://github.com/DataBridgeAI/ChatwithDatabase/tree/main" }
-    ]
-  },
-  {
-  id: 2,
-  title: "NYC Taxi Trip Analytics",
-  description: "Modern data engineering pipeline transforming NYC taxi trip data using dbt and dimensional modeling.",
-  image: "/images/pic23.png", 
-  category: "data-engineering",
-  technologies: ["dbt", "Data Engineering", "Dimensional Modeling", "ETL"],
-  links: [
-    { type: "GitHub", url: "https://github.com/divyashah99/nyc_taxi_dbt" },
-    { type: "Tableau", url: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NYC_Taxi_Analysis/Dashboard1" }
-  ]
-}
-
+  }
   
 ];
 
 const categories = [
   { id: "all", label: "All Projects" },
+  { id: "data-engineering", label: "Data Engineering" },
   { id: "data-analytics", label: "Data Analytics" },
   { id: "data-visualization", label: "Data Visualization & BI" },
   { id: "data-science", label: "Data Science & ML" },
-  { id: "data-engineering", label: "Data Engineering" },
   { id: "gen-ai", label: "Gen-AI" }
 ];
 
