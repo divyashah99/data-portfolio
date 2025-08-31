@@ -7,6 +7,17 @@ import ProjectCard from "@/components/ProjectCard";
 import { Badge } from "@/components/ui/badge";
 
 const projectsData = [
+    {
+  id: 1,
+  title: "Employee Data ETL Pipeline",
+  description: "Automated daily ETL pipeline generating synthetic employee data with privacy transformations using Google Cloud Platform services.",
+  image: "/images/pic24.jpg", 
+  category: "data-engineering",
+  technologies: ["Apache Airflow", "Google Cloud Data Fusion", "Python", "ETL", "Data Privacy"],
+  links: [
+    { type: "GitHub", url: "https://github.com/divyashah99/gcp-employee-etl-pipeline" }
+  ]
+},
   // Data Visualization & BI Projects
    {
     id: 17,
@@ -187,17 +198,6 @@ const projectsData = [
   links: [
     { type: "GitHub", url: "https://github.com/divyashah99/nyc_taxi_dbt" },
     { type: "Tableau", url: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NYC_Taxi_Analysis/Dashboard1" }
-  ]
-},
-  {
-  id: 1,
-  title: "Employee Data ETL Pipeline",
-  description: "Automated daily ETL pipeline generating synthetic employee data with privacy transformations using Google Cloud Platform services.",
-  image: "/images/pic24.jpg", 
-  category: "data-engineering",
-  technologies: ["Apache Airflow", "Google Cloud Data Fusion", "Python", "ETL", "Data Privacy"],
-  links: [
-    { type: "GitHub", url: "https://github.com/divyashah99/gcp-employee-etl-pipeline" }
   ]
 }
 
