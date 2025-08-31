@@ -9,7 +9,7 @@ import { Badge } from "@/components/ui/badge";
 const projectsData = [
   // Data Visualization & BI Projects
    {
-    id: 1,
+    id: 17,
     title: "Netflix Data Analysis",
     description: "Interactive Tableau visualizations exploring Netflix content distribution, genre preferences, release patterns, and user ratings to uncover valuable insights on user behavior and content trends.",
     image: "/images/pic17.jpg",
@@ -20,7 +20,7 @@ const projectsData = [
     ]
   },
   {
-    id: 2,
+    id: 16,
     title: "Myntra Sales Analysis",
     description: "Power BI dashboard analyzing e-commerce product performance with KPIs including Sales, Quantity, Profit, and Shipping Cost to provide valuable business insights.",
     image: "/images/pic11.jpg",
@@ -31,7 +31,7 @@ const projectsData = [
     ]
   },
   {
-    id: 3,
+    id: 15,
     title: "SFO Air Traffic Analysis",
     description: "Detailed analysis of San Francisco International Airport traffic patterns, passenger flows, and operational metrics to identify optimization opportunities.",
     image: "/images/pic18.jpg",
@@ -43,7 +43,7 @@ const projectsData = [
   },
 
   {
-    id: 4,
+    id: 14,
     title: "Youtube API Analysis",
     description: "Analysis of YouTube channel statistics using the YouTube Data API, performing exploratory data analysis on video metrics with visualizations of key insights.",
     image: "/images/pic13.png",
@@ -54,7 +54,7 @@ const projectsData = [
     ]
   },
   {
-    id: 5,
+    id: 13,
     title: "Facebook-AdWords Comparative Analysis",
     description: "Comprehensive analysis comparing Facebook and Google AdWords advertising platforms, evaluating performance metrics, ROI, and audience targeting effectiveness.",
     image: "/images/pic19.png",
@@ -65,7 +65,7 @@ const projectsData = [
     ]
   },
   {
-    id: 6,
+    id: 12,
     title: "Data Cleaning in SQL",
     description: "Addressing data quality issues in the Nashville Housing dataset by enhancing overall quality, standardizing formats, and streamlining for more effective analysis.",
     image: "/images/pic14.jpg",
@@ -76,7 +76,7 @@ const projectsData = [
     ]
   },
   {
-    id: 7,
+    id: 11,
     title: "Los Angeles Crime Analysis",
     description: "Analysis of real-world crime data from 2020 to present, focusing on cleaning, exploratory analysis, and addressing questions about crime trends, patterns, and influencing factors.",
     image: "/images/pic16.jpg",
@@ -87,7 +87,7 @@ const projectsData = [
     ]
   },
   {
-    id: 8,
+    id: 10,
     title: "FIFA 21 Data Cleaning and Transformation",
     description: "Cleaning and transforming FIFA 2021 player data to make it more suitable for analysis, including player attributes, personal details, and performance metrics.",
     image: "/images/pic15.jpg",
@@ -110,7 +110,7 @@ const projectsData = [
     ]
   },
   {
-    id: 10,
+    id: 8,
     title: "Customer Segmentation using RFM Analysis",
     description: "Leveraging e-Commerce dataset to conduct customer segmentation using Recency, Frequency, and Monetary (RFM) analysis for targeted marketing strategies.",
     image: "/images/pic12.jpg",
@@ -121,7 +121,7 @@ const projectsData = [
     ]
   },
   {
-    id: 11,
+    id: 7,
     title: "Data Science Book Analysis",
     description: "Analysis of Kaggle-sourced Data Science Books dataset from Amazon, exploring correlations between prices and reviews, book length impact, and identifying top Python and ML books.",
     image: "/images/pic13.jpg",
@@ -132,7 +132,7 @@ const projectsData = [
     ]
   },
   {
-    id: 12,
+    id: 6,
     title: "Image Captioning",
     description: "Deep learning model that automatically generates descriptive captions for images using computer vision and natural language processing techniques.",
     image: "/images/pic20.png",
@@ -144,7 +144,7 @@ const projectsData = [
   },
 
   {
-    id: 13,
+    id: 5,
     title: "ETL File Automation",
     description: "Serverless data pipeline automating file transfer, transformation, and ingestion using AWS Lambda, Glue, SNS, and Snowpipe to load data into Snowflake in real-time.",
     image: "/images/architecture.png",
@@ -155,7 +155,7 @@ const projectsData = [
     ]
   },
   {
-    id: 14,
+    id: 4,
     title: "Realtime Data Streaming Pipeline",
     description: "End-to-end data streaming solution that processes and analyzes data in real-time using modern streaming technologies for immediate insights and actions.",
     image: "/images/pic21.png",
@@ -167,7 +167,7 @@ const projectsData = [
   },
 
   {
-    id: 15,
+    id: 3,
     title: "Chat with Database",
     description: "Natural language interface that allows users to query databases using conversational language, translating plain English to SQL queries.",
     image: "/images/pic22.png",
@@ -178,7 +178,7 @@ const projectsData = [
     ]
   },
   {
-  id: 16,
+  id: 2,
   title: "NYC Taxi Trip Analytics",
   description: "Modern data engineering pipeline transforming NYC taxi trip data using dbt and dimensional modeling.",
   image: "/images/pic23.png", 
@@ -187,6 +187,17 @@ const projectsData = [
   links: [
     { type: "GitHub", url: "https://github.com/divyashah99/nyc_taxi_dbt" },
     { type: "Tableau", url: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NYC_Taxi_Analysis/Dashboard1" }
+  ]
+},
+  {
+  id: 1,
+  title: "Employee Data ETL Pipeline",
+  description: "Automated daily ETL pipeline generating synthetic employee data with privacy transformations using Google Cloud Platform services.",
+  image: "/images/pic24.jpg", 
+  category: "data-engineering",
+  technologies: ["Apache Airflow", "Google Cloud Data Fusion", "Python", "ETL", "Data Privacy"],
+  links: [
+    { type: "GitHub", url: "https://github.com/divyashah99/gcp-employee-etl-pipeline" }
   ]
 }
 
