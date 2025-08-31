@@ -11,7 +11,7 @@ const projectsData = [
   id: 1,
   title: "Employee Data ETL Pipeline",
   description: "Automated daily ETL pipeline generating synthetic employee data with privacy transformations using Google Cloud Platform services.",
-  image: "/images/pic24.jpg", 
+  image: "/images/pic24.png", 
   category: "data-engineering",
   technologies: ["Apache Airflow", "Google Cloud Data Fusion", "Python", "ETL", "Data Privacy"],
   links: [
