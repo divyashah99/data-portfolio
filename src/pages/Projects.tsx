@@ -203,7 +203,7 @@ const projectsData = [
   "id": 18,
   "title": "Hospital Patient Flow Analytics",
   "description": "An end-to-end Azure-based data pipeline that ingests, cleans, and transforms real-time patient admission/discharge data to provide actionable insights on hospital bed occupancy, department load, and patient flow using a Medallion architecture and star schema.",
-  "image": "/images/pic25.png",
+  "image": "/images/pic25.jpg",
   "category": "data-engineering",
   "technologies": ["Python", "Databricks", "Azure Event Hub", "Azure Data Lake Storage", "Delta Lake", "Azure Data Factory", "PySpark", "Kafka"],
   "links": [
