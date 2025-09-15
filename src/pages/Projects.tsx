@@ -198,7 +198,19 @@ const projectsData = [
     links: [
       { type: "GitHub", url: "https://github.com/divyashah99/image-captioning" }
     ]
-  }
+  },
+{
+  "id": 18,
+  "title": "Hospital Patient Flow Analytics",
+  "description": "An end-to-end Azure-based data pipeline that ingests, cleans, and transforms real-time patient admission/discharge data to provide actionable insights on hospital bed occupancy, department load, and patient flow using a Medallion architecture and star schema.",
+  "image": "/images/pic25.png",
+  "category": "data-engineering",
+  "technologies": ["Python", "Databricks", "Azure Event Hub", "Azure Data Lake Storage", "Delta Lake", "Azure Data Factory", "PySpark", "Kafka"],
+  "links": [
+    { "type": "GitHub", "url": "https://github.com/divyashah99/azure-hospital-patient-flow-analytics" }
+  ]
+}
+
   
 ];
 
