@@ -8,6 +8,17 @@ import { Badge } from "@/components/ui/badge";
 
 const projectsData = [
       {
+  "id": 18,
+  "title": "Hospital Patient Flow Analytics",
+  "description": "An end-to-end Azure-based data pipeline that ingests, cleans, and transforms real-time patient admission/discharge data to provide actionable insights on hospital bed occupancy, department load, and patient flow using a Medallion architecture and star schema.",
+  "image": "/images/pic25.jpg",
+  "category": "data-engineering",
+  "technologies": ["Python", "Databricks", "Azure Event Hub", "Azure Data Lake Storage", "Delta Lake", "Azure Data Factory", "PySpark", "Kafka"],
+  "links": [
+    { "type": "GitHub", "url": "https://github.com/divyashah99/azure-hospital-patient-flow-analytics" }
+  ]
+},
+      {
   id: 2,
   title: "NYC Taxi Trip Analytics",
   description: "Modern data engineering pipeline transforming NYC taxi trip data using dbt and dimensional modeling.",
@@ -198,18 +209,7 @@ const projectsData = [
     links: [
       { type: "GitHub", url: "https://github.com/divyashah99/image-captioning" }
     ]
-  },
-{
-  "id": 18,
-  "title": "Hospital Patient Flow Analytics",
-  "description": "An end-to-end Azure-based data pipeline that ingests, cleans, and transforms real-time patient admission/discharge data to provide actionable insights on hospital bed occupancy, department load, and patient flow using a Medallion architecture and star schema.",
-  "image": "/images/pic25.jpg",
-  "category": "data-engineering",
-  "technologies": ["Python", "Databricks", "Azure Event Hub", "Azure Data Lake Storage", "Delta Lake", "Azure Data Factory", "PySpark", "Kafka"],
-  "links": [
-    { "type": "GitHub", "url": "https://github.com/divyashah99/azure-hospital-patient-flow-analytics" }
-  ]
-}
+  }
 
   
 ];
