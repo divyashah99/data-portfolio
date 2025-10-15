@@ -65,6 +65,26 @@ const projectsData = [
     ]
   },
       {
+  id: 19,
+  title: "Multi-Agent Investment Analysis System",
+  description: "AI-powered stock analysis platform built on CrewAI's multi-agent framework, enabling autonomous task delegation and real-time financial data analysis for investment insights.",
+  image: "/images/pic26.png",
+  category: "gen-ai",
+  technologies: [
+    "CrewAI",
+    "LangChain",
+    "OpenAI GPT-4 Mini",
+    "Python",
+    "yFinance",
+    "RAG",
+    "Web Scraping"
+  ],
+  links: [
+    { type: "GitHub", url: "https://github.com/divyashah99/Multi-Agent-Investment-Analysis-System" }
+  ]
+},
+
+      {
     id: 5,
     title: "ETL File Automation",
     description: "Serverless data pipeline automating file transfer, transformation, and ingestion using AWS Lambda, Glue, SNS, and Snowpipe to load data into Snowflake in real-time.",
