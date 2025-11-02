@@ -273,10 +273,10 @@ const projectsData = [
 const categories = [
   { id: "all", label: "All Projects" },
   { id: "data-engineering", label: "Data Engineering" },
+  { id: "gen-ai", label: "Gen-AI" },
   { id: "data-analytics", label: "Data Analytics" },
   { id: "data-visualization", label: "Data Visualization & BI" },
-  { id: "data-science", label: "Data Science & ML" },
-  { id: "gen-ai", label: "Gen-AI" }
+  { id: "data-science", label: "Data Science & ML" }
 ];
 
 const Projects = () => {
