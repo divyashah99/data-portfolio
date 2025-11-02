@@ -8,6 +8,31 @@ import { Badge } from "@/components/ui/badge";
 
 const projectsData = [
       {
+  "id": 21,
+  "title": "Spotify Streaming Analytics Pipeline",
+  "description": "An end-to-end Azure data pipeline implementing medallion architecture for Spotify streaming analytics. Incrementally ingests data from Azure SQL Database using CDC pattern, cleanses and standardizes with Databricks structured streaming, and creates an analytics-ready star schema with SCD Type 1/2 using Delta Live Tables for historical tracking and insights.",
+  "image": "/images/pic28.png",
+  "category": "data-engineering",
+  "technologies": [
+    "Azure Data Factory",
+    "Azure SQL Database",
+    "Azure Data Lake Storage Gen2",
+    "Databricks",
+    "Delta Lake",
+    "Delta Live Tables",
+    "PySpark",
+    "Structured Streaming",
+    "Auto Loader",
+    "Python"
+  ],
+  "links": [
+    { 
+      "type": "GitHub", 
+      "url": "https://github.com/divyashah99/spotify-azure-pipeline" 
+    }
+  ]
+},
+      {
   "id": 18,
   "title": "Hospital Patient Flow Analytics",
   "description": "An end-to-end Azure-based data pipeline that ingests, cleans, and transforms real-time patient admission/discharge data to provide actionable insights on hospital bed occupancy, department load, and patient flow using a Medallion architecture and star schema.",
@@ -64,6 +89,17 @@ const projectsData = [
       { type: "GitHub", url: "https://github.com/DataBridgeAI/ChatwithDatabase/tree/main" }
     ]
   },
+{
+  id: 20,
+  title: "Flipkart Product Recommender",
+  description: "AI-powered conversational chatbot that recommends products through natural language interactions, using RAG architecture to retrieve and analyze customer reviews for context-aware suggestions.",
+  image: "/images/pic27.png",
+  category: "gen-ai",
+  technologies: ["Python", "LangChain", "RAG", "LLaMA 3.1", "AstraDB", "Kubernetes"],
+  links: [
+    { type: "GitHub", url: "https://github.com/divyashah99/Flipkart-Product-Recommender" }
+  ]
+},
       {
   id: 19,
   title: "Multi-Agent Investment Analysis System",
