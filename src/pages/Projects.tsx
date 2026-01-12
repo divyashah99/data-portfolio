@@ -8,6 +8,28 @@ import { Badge } from "@/components/ui/badge";
 
 const projectsData = [
       {
+  "id": 22,
+  "title": "Airbnb Booking Analytics Pipeline",
+  "description": "End-to-end data pipeline for Airbnb bookings and listings using 3-tier medallion architecture (Bronze/Silver/Gold) with dbt, Snowflake, and AWS S3. Implements incremental loading and SCD Type 2 snapshots, enabling efficient analytics and historical trend tracking.",
+  "image": "/images/pic29.png",
+  "category": "data-engineering",
+  "technologies": [
+    "dbt",
+    "Snowflake",
+    "AWS S3",
+    "SQL",
+    "Python",
+    "Data Modeling",
+    "SCD Type 2"
+  ],
+  "links": [
+    {
+      "type": "GitHub",
+      "url": "https://github.com/divyashah99/Airbnb_Data_Pipeline"
+    }
+  ]
+},
+      {
   "id": 21,
   "title": "Spotify Streaming Analytics Pipeline",
   "description": "An end-to-end Azure data pipeline implementing medallion architecture for Spotify streaming analytics. Incrementally ingests data from Azure SQL Database using CDC pattern, cleanses and standardizes with Databricks structured streaming, and creates an analytics-ready star schema with SCD Type 1/2 using Delta Live Tables for historical tracking and insights.",
