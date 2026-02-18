@@ -235,10 +235,10 @@ const Index = () => {
 
   // Featured projects - mix of data engineering and AI/ML
   const featuredProjects = [
-    allProjects[0], // Airbnb Pipeline - Data Engineering
-    allProjects[1], // Spotify Pipeline - Data Engineering
     allProjects[7], // Chat with Database - Gen AI
     allProjects[8], // Flipkart Recommender - Gen AI
+    allProjects[0], // Airbnb Pipeline - Data Engineering
+    allProjects[1], // Spotify Pipeline - Data Engineering
     allProjects[5], // Realtime Streaming - Data Engineering
     allProjects[9], // Multi-Agent System - Gen AI
   ];
