@@ -80,7 +80,7 @@ const allProjects = [
   {
     id: 8,
     title: "Chat with Database",
-    description: "Developed natural language SQL interface using LangChain and LLaMA 2, translating business questions into optimized queries across 50+ database tables. Implemented semantic layer with few-shot learning achieving 87% query accuracy. Enabled non-technical stakeholders to self-serve analytics, reducing data team query requests by 60% and accelerating insights from 2 days to 2 minutes.",
+    description: "Developed natural language SQL interface using LangChain and LLaMA 2, translating business questions into optimized queries across 5+ database tables. Implemented semantic layer with few-shot learning achieving 87% query accuracy. Enabled non-technical stakeholders to self-serve analytics, reducing data team query requests by 60% and accelerating insights from 2 days to 2 minutes.",
     image: "/images/pic22.png",
     category: "gen-ai",
     technologies: ["Python", "LangChain", "LLMs", "SQL", "NLP", "Database Integration"],
@@ -90,7 +90,7 @@ const allProjects = [
   {
     id: 9,
     title: "Flipkart Product Recommender",
-    description: "Built RAG-powered conversational recommender analyzing 100K+ customer reviews using LLaMA 3.1 and AstraDB vector store. Implemented semantic search with embedding models achieving 0.89 relevance score. Deployed on Kubernetes with auto-scaling handling 500+ concurrent users. A/B testing showed 34% higher engagement vs traditional filters, driving 12% increase in purchase conversion.",
+    description: "Built RAG-powered conversational recommender analyzing 400+ customer reviews using LLaMA 3.1 and AstraDB vector store. Implemented semantic search with embedding models achieving 0.89 relevance score. Deployed on Kubernetes with auto-scaling handling 500+ concurrent users. A/B testing showed 34% higher engagement vs traditional filters, driving 12% increase in purchase conversion.",
     image: "/images/pic27.png",
     category: "gen-ai",
     technologies: ["Python", "LangChain", "RAG", "LLaMA 3.1", "AstraDB", "Kubernetes"],
