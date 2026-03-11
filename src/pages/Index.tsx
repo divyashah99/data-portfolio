@@ -306,6 +306,47 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-8 text-center">Professional Experience</h2>
           
           <div className="space-y-8">
+            {/* Community Dreams Foundation */}
+<Card>
+  <CardContent className="pt-6">
+    <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
+      <div>
+        <h3 className="text-xl font-bold">Data Engineer</h3>
+        <p className="text-accent text-lg">Community Dreams Foundation, Remote, USA</p>
+      </div>
+      <p className="text-muted-foreground">Oct 2025 - Present</p>
+    </div>
+
+    <ul className="space-y-2 mb-4">
+      <li className="flex items-start gap-2">
+        <span className="text-accent mt-1.5">•</span>
+        <span>
+          Built Python ETL pipelines on Azure Databricks ingesting Twitter/X sentiment and CoinGecko crypto price data, processing 50K+ tweets and generating aligned time-series datasets for analytics
+        </span>
+      </li>
+
+      <li className="flex items-start gap-2">
+        <span className="text-accent mt-1.5">•</span>
+        <span>
+          Engineered NLP sentiment features using VADER and TextBlob and trained classification models (Logistic Regression, Random Forest) in Azure ML to predict short-term crypto price direction, improving accuracy by ~15%
+        </span>
+      </li>
+
+      <li className="flex items-start gap-2">
+        <span className="text-accent mt-1.5">•</span>
+        <span>
+          Developed a production-style AI document search platform on Azure AI using HuggingFace embeddings and FAISS vector indexing, enabling conversational search and reducing manual document lookup time by ~60%
+        </span>
+      </li>
+    </ul>
+
+    <div className="flex flex-wrap gap-2">
+      {["Python", "Azure Databricks", "Azure ML", "Azure AI", "HuggingFace", "FAISS", "NLP", "Machine Learning", "ETL"].map((skill) => (
+        <Badge key={skill} variant="secondary">{skill}</Badge>
+      ))}
+    </div>
+  </CardContent>
+</Card>
             {/* Fidelity */}
             <Card>
               <CardContent className="pt-6">
