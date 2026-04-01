@@ -318,27 +318,48 @@ const Index = () => {
     </div>
 
     <ul className="space-y-2 mb-4">
-      <li className="flex items-start gap-2">
-        <span className="text-accent mt-1.5">•</span>
-        <span>
-          Built Python ETL pipelines on Azure Databricks ingesting Twitter/X sentiment and CoinGecko crypto price data, processing 50K+ tweets and generating aligned time-series datasets for analytics
-        </span>
-      </li>
+  <li className="flex items-start gap-2">
+    <span className="text-accent mt-1.5">•</span>
+    <span>
+      Built an agentic meeting intelligence platform using LangGraph (ReAct architecture) with 5 custom tools, integrating OpenAI GPT-4o function calling and Whisper transcription to automate end-to-end meeting-to-task workflows across Notion and Slack
+    </span>
+  </li>
 
-      <li className="flex items-start gap-2">
-        <span className="text-accent mt-1.5">•</span>
-        <span>
-          Engineered NLP sentiment features using VADER and TextBlob and trained classification models (Logistic Regression, Random Forest) in Azure ML to predict short-term crypto price direction, improving accuracy by ~15%
-        </span>
-      </li>
+  <li className="flex items-start gap-2">
+    <span className="text-accent mt-1.5">•</span>
+    <span>
+      Engineered an end-to-end churn prediction system for a telecom use case, enabling retention teams to proactively target at-risk customers, boosting recall by 13% via XGBoost + Optuna tuning across 20 hyperparameter trials, tracked with MLflow
+    </span>
+  </li>
 
-      <li className="flex items-start gap-2">
-        <span className="text-accent mt-1.5">•</span>
-        <span>
-          Developed a production-style AI document search platform on Azure AI using HuggingFace embeddings and FAISS vector indexing, enabling conversational search and reducing manual document lookup time by ~60%
-        </span>
-      </li>
-    </ul>
+  <li className="flex items-start gap-2">
+    <span className="text-accent mt-1.5">•</span>
+    <span>
+      Built a production-grade serving infrastructure using FastAPI + Docker + AWS ECS Fargate with GitHub Actions CI/CD, reducing model deployment to a single push and exposing real-time predictions via a public web interface for non-technical stakeholders
+    </span>
+  </li>
+
+  <li className="flex items-start gap-2">
+    <span className="text-accent mt-1.5">•</span>
+    <span>
+      Designed a multimodal RAG pipeline using the Unstructured library to automate extraction of text, tables, and images from complex PDFs, cutting manual processing time by 70%
+    </span>
+  </li>
+
+  <li className="flex items-start gap-2">
+    <span className="text-accent mt-1.5">•</span>
+    <span>
+      Engineered a scalable Azure Databricks pipeline with Unity Catalog, ingesting real-time REST API data into Bronze layers and transforming it into curated Silver Delta tables using Delta Live Tables (DLT), ensuring 99.9% data readiness
+    </span>
+  </li>
+
+  <li className="flex items-start gap-2">
+    <span className="text-accent mt-1.5">•</span>
+    <span>
+      Automated CI/CD workflows using Databricks Asset Bundles (DAB) and GitHub Actions, improving deployment speed by 80% and enabling secure, production-grade pipelines with Service Principals
+    </span>
+  </li>
+</ul>
 
     <div className="flex flex-wrap gap-2">
       {["Python", "Azure Databricks", "Azure ML", "Azure AI", "HuggingFace", "FAISS", "NLP", "Machine Learning", "ETL"].map((skill) => (
