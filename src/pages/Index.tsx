@@ -311,7 +311,7 @@ const Index = () => {
   <CardContent className="pt-6">
     <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
       <div>
-        <h3 className="text-xl font-bold">Data Engineer</h3>
+        <h3 className="text-xl font-bold">Data & ML Engineer</h3>
         <p className="text-accent text-lg">Community Dreams Foundation, Remote, USA</p>
       </div>
       <p className="text-muted-foreground">Oct 2025 - Present</p>
