@@ -99,13 +99,13 @@ const allProjects = [
   },
   {
     id: 10,
-    title: "Multi-Agent Investment Analysis System",
-    description: "Architected autonomous AI analyst team using CrewAI framework with 4 specialized agents: Data Gatherer (yFinance API), Sentiment Analyzer (news scraping), Technical Analyst (trend detection), and Report Generator. System processes 200+ stocks daily, delivering investment briefs that matched human analyst recommendations 78% of the time while reducing research time from 3 hours to 10 minutes per stock.",
+    title: "FinSight — Autonomous Equity Research Platform",
+    description: "Built a production multi-agent AI system that turns a stock ticker into a structured investment memo. Implemented a real MCP server exposing Alpha Vantage as tools, a LangGraph orchestrator with parallel fan-out across Market, Quant, News, and SEC agents, and a bounded Writer→Critic revision loop. Added RAG over SEC 10-K/10-Q filings using section-aware chunking into Qdrant with citation-grounded bull/bear cases. Streams token-level SSE from FastAPI to a Next.js 15 UI, backed by Postgres caching, persisted token-bucket rate limits, and Dockerized deployment on Render + Vercel.",
     image: "/images/pic26.png",
     category: "gen-ai",
-    technologies: ["CrewAI", "LangChain", "OpenAI GPT-4", "Python", "yFinance", "RAG", "Web Scraping"],
-    link: "https://github.com/divyashah99/Multi-Agent-Investment-Analysis-System",
-    impact: "Reduced stock research time from 3 hours to 10 minutes with 78% analyst accuracy match"
+    technologies: ["LangGraph", "MCP", "FastAPI", "Next.js 15", "Qdrant", "Postgres", "OpenAI", "RAG", "Docker"],
+    link: "https://github.com/divyashah99/finsight",
+    impact: "End-to-end AI engineering showcase: MCP tool server, multi-agent orchestration, RAG with SEC citations, and streaming UI"
   },
   {
     id: 11,
@@ -235,12 +235,12 @@ const Index = () => {
 
   // Featured projects - mix of data engineering and AI/ML
   const featuredProjects = [
+    allProjects[9], // Multi-Agent System - Gen AI
     allProjects[7], // Chat with Database - Gen AI
     allProjects[8], // Flipkart Recommender - Gen AI
     allProjects[0], // Airbnb Pipeline - Data Engineering
     allProjects[1], // Spotify Pipeline - Data Engineering
     allProjects[5], // Realtime Streaming - Data Engineering
-    allProjects[9], // Multi-Agent System - Gen AI
   ];
 
   const categories = [
@@ -417,23 +417,23 @@ const Index = () => {
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1.5">•</span>
-                    <span>Designed SQL Server star-schema models using complex SQL DDL/DML, processing 1,500+ daily exam applications across 5 recruitment programs, implementing SCD Type 2 dimensions to serve 50+ business analysts</span>
+                    <span>Improved data quality and reliability by 25%, by implementing server-side validation (Java) and SQL-based quality checks across 50+ production forms</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1.5">•</span>
-                    <span>Built Talend ETL pipelines with incremental loading from MySQL to SQL Server, implementing staging layer architecture and automated error handling that achieved zero production data defects</span>
+                    <span>Designed data models for application data, by translating business requirements into metadata-driven schemas (field types, constraints, validation rules) supporting 1,500+ daily records ingestion</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1.5">•</span>
-                    <span>Developed Python scripts enforcing 15+ business rules (age eligibility, payment amounts, document completeness), preventing invalid data submissions and reducing support tickets by 40+ incidents monthly</span>
+                    <span>Reduced invalid data submissions by 40%+, by enforcing 15+ business rules during data transformation layer of ETL workflow and applying downstream validation using SQL and Python</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1.5">•</span>
-                    <span>Created Power BI dashboards with DAX measures for payment reconciliation and application tracking, identifying $20K+ in fee discrepancies and reducing manual reconciliation from 2 days to 2 hours monthly</span>
+                    <span>Accelerated reporting decision-making by 60% by building Power BI dashboards with DAX measures tracking 1,500+ daily submissions, payment delays, and user journey metrics for business and leadership audiences.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-accent mt-1.5">•</span>
-                    <span>Automated ETL deployments using Jenkins CI/CD pipeline with Talend CommandLine and Python testing, reducing release cycle from 2 weeks to 3 days with 100% deployment success rate</span>
+                    <span>Delivered 20+ custom eForms for public sector and EdTech clients using HTML, CSS, JavaScript, and jQuery with client-side validation and dynamic field logic, reducing data entry errors by 35% across deployed production forms.</span>
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-2">
@@ -503,15 +503,49 @@ const Index = () => {
 
             <Card className="md:col-span-2">
               <CardContent className="pt-6">
-                <a 
-                  href="https://www.credly.com/badges/64d26c10-5a96-49c2-b6b7-4ffe2d39cd42/public_url" 
-                  target="_blank" 
+                <a
+                  href="https://www.credly.com/badges/64d26c10-5a96-49c2-b6b7-4ffe2d39cd42/public_url"
+                  target="_blank"
                   rel="noreferrer"
                   className="flex items-center justify-between group"
                 >
                   <div>
                     <h3 className="text-xl font-bold mb-1 group-hover:text-accent transition-colors">AWS Certified Data Engineer - Associate</h3>
                     <p className="text-muted-foreground">Amazon Web Services • 2024</p>
+                  </div>
+                  <ExternalLink className="h-5 w-5 text-muted-foreground group-hover:text-accent transition-colors" />
+                </a>
+              </CardContent>
+            </Card>
+
+            <Card className="md:col-span-2">
+              <CardContent className="pt-6">
+                <a
+                  href="https://credentials.databricks.com/587d7288-7136-4cbf-bde2-0344836e3a77#acc.Y659VmbC"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center justify-between group"
+                >
+                  <div>
+                    <h3 className="text-xl font-bold mb-1 group-hover:text-accent transition-colors">Databricks Certified Data Engineer Associate</h3>
+                    <p className="text-muted-foreground">Databricks • May 2026</p>
+                  </div>
+                  <ExternalLink className="h-5 w-5 text-muted-foreground group-hover:text-accent transition-colors" />
+                </a>
+              </CardContent>
+            </Card>
+
+            <Card className="md:col-span-2">
+              <CardContent className="pt-6">
+                <a
+                  href="https://learn.deeplearning.ai/certificates/54ea2595-3b78-491c-bc6d-813221ec957f?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center justify-between group"
+                >
+                  <div>
+                    <h3 className="text-xl font-bold mb-1 group-hover:text-accent transition-colors">Agentic AI</h3>
+                    <p className="text-muted-foreground">DeepLearning.AI • Nov 2025</p>
                   </div>
                   <ExternalLink className="h-5 w-5 text-muted-foreground group-hover:text-accent transition-colors" />
                 </a>

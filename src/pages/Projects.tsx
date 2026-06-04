@@ -124,21 +124,23 @@ const projectsData = [
 },
       {
   id: 19,
-  title: "Multi-Agent Investment Analysis System",
-  description: "AI-powered stock analysis platform built on CrewAI's multi-agent framework, enabling autonomous task delegation and real-time financial data analysis for investment insights.",
+  title: "FinSight — Autonomous Equity Research Platform",
+  description: "Multi-agent AI system that turns a stock ticker into a structured investment memo. Features a real MCP server exposing Alpha Vantage as tools, a LangGraph orchestrator with parallel fan-out and a bounded Critic-revision loop, RAG over SEC 10-K/10-Q filings (EDGAR → Qdrant), and a streaming Next.js UI with token-level SSE from FastAPI.",
   image: "/images/pic26.png",
   category: "gen-ai",
   technologies: [
-    "CrewAI",
-    "LangChain",
-    "OpenAI GPT-4 Mini",
-    "Python",
-    "yFinance",
+    "LangGraph",
+    "MCP",
+    "FastAPI",
+    "Next.js 15",
+    "Qdrant",
+    "Postgres",
+    "OpenAI",
     "RAG",
-    "Web Scraping"
+    "Docker"
   ],
   links: [
-    { type: "GitHub", url: "https://github.com/divyashah99/Multi-Agent-Investment-Analysis-System" }
+    { type: "GitHub", url: "https://github.com/divyashah99/finsight" }
   ]
 },
 
