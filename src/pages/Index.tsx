@@ -272,7 +272,7 @@ const Index = () => {
               <h1 className="text-4xl md:text-5xl font-bold mb-3">Divya Babulal Shah</h1>
               <h2 className="text-2xl text-accent mb-4">Data Engineer & Analytics Professional</h2>
               <div className="flex flex-wrap gap-3 justify-center md:justify-start mb-6 text-muted-foreground">
-                <span className="flex items-center gap-1"><MapPin className="h-4 w-4" /> Boston, MA</span>
+                
                 <span className="flex items-center gap-1"><Briefcase className="h-4 w-4" /> Open to Opportunities</span>
               </div>
               <p className="text-lg mb-6 leading-relaxed">
