@@ -289,7 +289,18 @@ const projectsData = [
     links: [
       { type: "GitHub", url: "https://github.com/divyashah99/image-captioning" }
     ]
-  }
+  },
+        {
+  id: 23,
+  title: "PharmaLM: Medical Instruction Fine-Tuning with Phi-3",
+  description: "Fine-tuned Phi-3-mini (3.8B) on medical instruction Q&A datasets using QLoRA and 4-bit quantization on a single GPU. Enables accurate responses across dosage guidance, drug interactions, contraindications, and side effects. Implemented a post-training evaluation pipeline using ROUGE-L, BERTScore, and latency benchmarking to measure both response quality and inference efficiency in real-world clinical-like scenarios.",
+  image: "/images/pic30.png",
+  category: "gen-ai",
+  technologies: ["Python", "PyTorch", "Transformers", "Phi-3-mini", "QLoRA", "4-bit Quantization", "NLP", "Medical AI"],
+  links: [
+      { type: "GitHub", url: "https://github.com/divyashah99/PharmaLM" }
+    ]
+}
 
   
 ];
