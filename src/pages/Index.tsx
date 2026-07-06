@@ -228,7 +228,7 @@ const Index = () => {
   const featuredProjects = [
     allProjects[9], // Multi-Agent System - Gen AI
     allProjects[7], // Chat with Database - Gen AI
-    allProjects[23], // Flipkart Recommender - Gen AI
+    allProjects[22], // PharmaLM - Gen AI
     allProjects[0], // Airbnb Pipeline - Data Engineering
     allProjects[1], // Spotify Pipeline - Data Engineering
     allProjects[5], // Realtime Streaming - Data Engineering
@@ -644,9 +644,6 @@ const Index = () => {
                   </div>
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                   <p className="text-muted-foreground mb-3 text-sm line-clamp-3">{project.description}</p>
-                  <div className="bg-accent/10 border-l-4 border-accent p-3 mb-4 rounded">
-                    <p className="text-sm font-medium">{project.impact}</p>
-                  </div>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.technologies.slice(0, 4).map((tech) => (
                       <Badge key={tech} variant="secondary" className="text-xs">{tech}</Badge>
@@ -713,11 +710,6 @@ const Index = () => {
                     </div>
                     <h3 className="text-lg font-bold mb-2">{project.title}</h3>
                     <p className="text-muted-foreground text-sm mb-3">{project.description}</p>
-                    {project.impact && (
-                      <div className="bg-accent/10 border-l-4 border-accent p-2 mb-3 rounded">
-                        <p className="text-xs font-medium">{project.impact}</p>
-                      </div>
-                    )}
                     <div className="flex flex-wrap gap-1 mb-3">
                       {project.technologies.map((tech) => (
                         <Badge key={tech} variant="secondary" className="text-xs">{tech}</Badge>
