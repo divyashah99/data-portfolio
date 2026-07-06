@@ -210,15 +210,6 @@ const allProjects = [
     
   },
   {
-    id: 11,
-    title: "Image Captioning with Deep Learning",
-    description: "Developed CNN-LSTM architecture processing 100K+ images from MS COCO dataset, generating human-like captions with 0.73 BLEU-4 score. Implemented attention mechanism improving caption relevance by 23%. Deployed Flask API enabling content management team to auto-caption 5K+ monthly product images, reducing manual tagging from 40 hours to 2 hours while improving SEO discoverability by 31%.",
-    image: "/images/pic20.png",
-    category: "gen-ai",
-    technologies: ["Python", "TensorFlow", "Computer Vision", "NLP", "Deep Learning", "CNN", "LSTM"],
-    link: "https://github.com/divyashah99/image-captioning"
-  },
-  {
   id: 23,
   title: "PharmaLM: Medical Instruction Fine-Tuning with Phi-3",
   description: "Fine-tuned Phi-3-mini (3.8B) on medical instruction Q&A datasets using QLoRA and 4-bit quantization on a single GPU. Enables accurate responses across dosage guidance, drug interactions, contraindications, and side effects. Implemented a post-training evaluation pipeline using ROUGE-L, BERTScore, and latency benchmarking to measure both response quality and inference efficiency in real-world clinical-like scenarios.",
