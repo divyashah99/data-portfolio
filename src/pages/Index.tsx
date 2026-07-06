@@ -14,8 +14,7 @@ const allProjects = [
     image: "/images/pic29.png",
     category: "data-engineering",
     technologies: ["dbt", "Snowflake", "AWS S3", "SQL", "Python", "Data Modeling", "SCD Type 2"],
-    link: "https://github.com/divyashah99/Airbnb_Data_Pipeline",
-    impact: "Reduced analytics latency from 24 hours to real-time, enabling 23% pricing optimization"
+    link: "https://github.com/divyashah99/Airbnb_Data_Pipeline"
   },
   {
     id: 2,
@@ -24,8 +23,7 @@ const allProjects = [
     image: "/images/pic28.png",
     category: "data-engineering",
     technologies: ["Azure Data Factory", "Databricks", "Delta Lake", "PySpark", "Structured Streaming", "Auto Loader"],
-    link: "https://github.com/divyashah99/spotify-azure-pipeline",
-    impact: "Enabled sub-second analytics on 500K+ daily events, powering personalized recommendations"
+    link: "https://github.com/divyashah99/spotify-azure-pipeline"
   },
   {
     id: 3,
@@ -34,8 +32,7 @@ const allProjects = [
     image: "/images/pic25.jpg",
     category: "data-engineering",
     technologies: ["Azure Event Hub", "Databricks", "Delta Lake", "PySpark", "Azure Data Factory", "Kafka"],
-    link: "https://github.com/divyashah99/azure-hospital-patient-flow-analytics",
-    impact: "Reduced patient wait times by 31% through real-time bed allocation optimization"
+    link: "https://github.com/divyashah99/azure-hospital-patient-flow-analytics"
   },
   {
     id: 4,
@@ -44,8 +41,7 @@ const allProjects = [
     image: "/images/pic23.png",
     category: "data-engineering",
     technologies: ["dbt", "Data Engineering", "Dimensional Modeling", "Tableau", "SQL"],
-    link: "https://github.com/divyashah99/nyc_taxi_dbt",
-    impact: "Enabled 5-year trend analysis across 150M+ trips, informing city transportation planning"
+    link: "https://github.com/divyashah99/nyc_taxi_dbt"
   },
   {
     id: 5,
@@ -54,8 +50,7 @@ const allProjects = [
     image: "/images/pic24.png",
     category: "data-engineering",
     technologies: ["Apache Airflow", "Google Cloud Data Fusion", "Python", "ETL", "Data Privacy", "GCP"],
-    link: "https://github.com/divyashah99/gcp-employee-etl-pipeline",
-    impact: "Automated test data generation saving 8 hours weekly while ensuring GDPR compliance"
+    link: "https://github.com/divyashah99/gcp-employee-etl-pipeline"
   },
   {
     id: 6,
@@ -64,8 +59,7 @@ const allProjects = [
     image: "/images/pic21.png",
     category: "data-engineering",
     technologies: ["Kafka", "Spark Streaming", "AWS", "Real-time Analytics", "Python"],
-    link: "https://github.com/divyashah99/realtime-data-streaming-pipeline",
-    impact: "Reduced fraud detection time from 4 hours to 2 seconds, preventing $50K+ monthly losses"
+    link: "https://github.com/divyashah99/realtime-data-streaming-pipeline"
   },
   {
     id: 7,
@@ -74,8 +68,7 @@ const allProjects = [
     image: "/images/architecture.png",
     category: "data-engineering",
     technologies: ["AWS Lambda", "AWS Glue", "Snowflake", "Snowpipe", "ETL", "S3"],
-    link: "https://github.com/divyashah99/aws-sftp-data-pipeline",
-    impact: "Eliminated 10+ hours monthly manual work, delivering data in 5 minutes vs 24 hours"
+    link: "https://github.com/divyashah99/aws-sftp-data-pipeline"
   },
   {
     id: 8,
@@ -84,8 +77,7 @@ const allProjects = [
     image: "/images/pic22.png",
     category: "gen-ai",
     technologies: ["Python", "LangChain", "LLMs", "SQL", "NLP", "Database Integration"],
-    link: "https://github.com/DataBridgeAI/ChatwithDatabase",
-    impact: "Reduced data team query requests by 60%, enabling self-service analytics in 2 minutes vs 2 days"
+    link: "https://github.com/DataBridgeAI/ChatwithDatabase"
   },
   {
     id: 9,
@@ -94,8 +86,7 @@ const allProjects = [
     image: "/images/pic27.png",
     category: "gen-ai",
     technologies: ["Python", "LangChain", "RAG", "LLaMA 3.1", "AstraDB", "Kubernetes"],
-    link: "https://github.com/divyashah99/Flipkart-Product-Recommender",
-    impact: "Increased purchase conversions by 12% through personalized recommendations"
+    link: "https://github.com/divyashah99/Flipkart-Product-Recommender"
   },
   {
     id: 10,
@@ -104,8 +95,7 @@ const allProjects = [
     image: "/images/pic26.png",
     category: "gen-ai",
     technologies: ["LangGraph", "MCP", "FastAPI", "Next.js 15", "Qdrant", "Postgres", "OpenAI", "RAG", "Docker"],
-    link: "https://github.com/divyashah99/finsight",
-    impact: "End-to-end AI engineering showcase: MCP tool server, multi-agent orchestration, RAG with SEC citations, and streaming UI"
+    link: "https://github.com/divyashah99/finsight"
   },
   {
     id: 11,
@@ -114,8 +104,7 @@ const allProjects = [
     image: "/images/pic20.png",
     category: "gen-ai",
     technologies: ["Python", "TensorFlow", "Computer Vision", "NLP", "Deep Learning", "CNN", "LSTM"],
-    link: "https://github.com/divyashah99/image-captioning",
-    impact: "Reduced image tagging time from 40 hours to 2 hours monthly, improving SEO by 31%"
+    link: "https://github.com/divyashah99/image-captioning"
   },
   {
     id: 12,
@@ -124,8 +113,7 @@ const allProjects = [
     image: "/images/pic17.jpg",
     category: "data-analytics",
     technologies: ["Tableau", "Data Visualization", "Python", "Exploratory Data Analysis"],
-    link: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NetflixDashboard_17073368231790/Netflix",
-    impact: "Informed $2M content acquisition strategy through regional content gap analysis"
+    link: "https://public.tableau.com/app/profile/divya.babulal.shah/viz/NetflixDashboard_17073368231790/Netflix"
   },
   {
     id: 13,
@@ -134,8 +122,7 @@ const allProjects = [
     image: "/images/pic11.jpg",
     category: "data-analytics",
     technologies: ["Power BI", "DAX", "Data Visualization", "KPI Analysis"],
-    link: "https://github.com/divyashah99/Myntra-Sales-Analysis",
-    impact: "Identified margin improvement opportunities projected to increase profitability by 8.5%"
+    link: "https://github.com/divyashah99/Myntra-Sales-Analysis"
   },
   {
     id: 14,
@@ -144,8 +131,7 @@ const allProjects = [
     image: "/images/pic18.jpg",
     category: "data-analytics",
     technologies: ["Python", "Statistical Analysis", "Data Visualization", "Transportation Analytics"],
-    link: "https://sites.google.com/view/projectgroup9/",
-    impact: "Reduced average taxi wait times by 12 minutes through optimized gate allocation"
+    link: "https://sites.google.com/view/projectgroup9/"
   },
   {
     id: 15,
@@ -154,8 +140,7 @@ const allProjects = [
     image: "/images/pic13.png",
     category: "data-analytics",
     technologies: ["Python", "YouTube API", "Data Visualization", "EDA", "Statistical Analysis"],
-    link: "https://github.com/divyashah99/Youtube-API-Analysis",
-    impact: "Increased average video views by 45% through data-driven posting strategy optimization"
+    link: "https://github.com/divyashah99/Youtube-API-Analysis"
   },
   {
     id: 16,
@@ -164,8 +149,7 @@ const allProjects = [
     image: "/images/pic19.png",
     category: "data-analytics",
     technologies: ["Python", "Marketing Analytics", "Statistical Analysis", "ROI Analysis"],
-    link: "https://github.com/divyashah99/facebook-adwords-comparative-analysis",
-    impact: "Optimized $180K annual ad budget through channel-specific performance analysis"
+    link: "https://github.com/divyashah99/facebook-adwords-comparative-analysis"
   },
   {
     id: 17,
@@ -174,8 +158,7 @@ const allProjects = [
     image: "/images/pic14.jpg",
     category: "data-analytics",
     technologies: ["SQL", "Data Cleaning", "Data Quality", "Data Standardization"],
-    link: "https://github.com/divyashah99/Data-Cleaning-in-SQL",
-    impact: "Improved dataset completeness from 73% to 98%, enabling accurate 5-year market analysis"
+    link: "https://github.com/divyashah99/Data-Cleaning-in-SQL"
   },
   {
     id: 18,
@@ -184,8 +167,7 @@ const allProjects = [
     image: "/images/pic16.jpg",
     category: "data-analytics",
     technologies: ["Python", "Data Cleaning", "EDA", "Statistical Analysis", "Predictive Modeling"],
-    link: "https://github.com/divyashah99/Los-Angeles-Crime-Analysis",
-    impact: "Informed LAPD resource allocation across 77 districts through crime hotspot identification"
+    link: "https://github.com/divyashah99/Los-Angeles-Crime-Analysis"
   },
   {
     id: 19,
@@ -194,8 +176,8 @@ const allProjects = [
     image: "/images/pic15.jpg",
     category: "data-analytics",
     technologies: ["Python", "Pandas", "Data Cleaning", "Data Transformation"],
-    link: "https://github.com/divyashah99/FIFA-21",
-    impact: "Enabled player valuation modeling for 3 sports analytics teams through data standardization"
+    link: "https://github.com/divyashah99/FIFA-21"
+    
   },
   {
     id: 20,
@@ -204,8 +186,8 @@ const allProjects = [
     image: "/images/pic10.jpg",
     category: "data-science",
     technologies: ["Python", "Machine Learning", "XGBoost", "Data Cleaning", "EDA", "SMOTE"],
-    link: "https://github.com/divyashah99/Fraud-Detection",
-    impact: "Identified $1.2M in fraud missed by rules while reducing false positives by 63%"
+    link: "https://github.com/divyashah99/Fraud-Detection"
+   
   },
   {
     id: 21,
@@ -214,8 +196,8 @@ const allProjects = [
     image: "/images/pic12.jpg",
     category: "data-science",
     technologies: ["Python", "RFM Analysis", "K-means Clustering", "Customer Segmentation"],
-    link: "https://github.com/divyashah99/Customer-Segmentation-using-RFM-Analysis",
-    impact: "Generated $340K incremental revenue through targeted retention campaigns"
+    link: "https://github.com/divyashah99/Customer-Segmentation-using-RFM-Analysis"
+   
   },
   {
     id: 22,
@@ -224,9 +206,27 @@ const allProjects = [
     image: "/images/pic13.jpg",
     category: "data-science",
     technologies: ["Python", "Web Scraping", "NLP", "Topic Modeling", "LDA", "Statistical Analysis"],
-    link: "https://github.com/divyashah99/Data-Science-Book-Analysis",
-    impact: "Informed technical book pricing strategy through analysis of 2,500+ titles"
-  }
+    link: "https://github.com/divyashah99/Data-Science-Book-Analysis"
+    
+  },
+  {
+    id: 11,
+    title: "Image Captioning with Deep Learning",
+    description: "Developed CNN-LSTM architecture processing 100K+ images from MS COCO dataset, generating human-like captions with 0.73 BLEU-4 score. Implemented attention mechanism improving caption relevance by 23%. Deployed Flask API enabling content management team to auto-caption 5K+ monthly product images, reducing manual tagging from 40 hours to 2 hours while improving SEO discoverability by 31%.",
+    image: "/images/pic20.png",
+    category: "gen-ai",
+    technologies: ["Python", "TensorFlow", "Computer Vision", "NLP", "Deep Learning", "CNN", "LSTM"],
+    link: "https://github.com/divyashah99/image-captioning"
+  },
+  {
+  id: 23,
+  title: "PharmaLM: Medical Instruction Fine-Tuning with Phi-3",
+  description: "Fine-tuned Phi-3-mini (3.8B) on medical instruction Q&A datasets using QLoRA and 4-bit quantization on a single GPU. Enables accurate responses across dosage guidance, drug interactions, contraindications, and side effects. Implemented a post-training evaluation pipeline using ROUGE-L, BERTScore, and latency benchmarking to measure both response quality and inference efficiency in real-world clinical-like scenarios.",
+  image: "/images/pic30.png",
+  category: "gen-ai",
+  technologies: ["Python", "PyTorch", "Transformers", "Phi-3-mini", "QLoRA", "4-bit Quantization", "NLP", "Medical AI"],
+  link: "https://github.com/divyashah99/PharmaLM",
+}
 ];
 
 const Index = () => {
@@ -237,7 +237,7 @@ const Index = () => {
   const featuredProjects = [
     allProjects[9], // Multi-Agent System - Gen AI
     allProjects[7], // Chat with Database - Gen AI
-    allProjects[8], // Flipkart Recommender - Gen AI
+    allProjects[23], // Flipkart Recommender - Gen AI
     allProjects[0], // Airbnb Pipeline - Data Engineering
     allProjects[1], // Spotify Pipeline - Data Engineering
     allProjects[5], // Realtime Streaming - Data Engineering
