@@ -261,7 +261,7 @@ const Index = () => {
             </div>
             <div className="flex-1 text-center md:text-left">
               <h1 className="text-4xl md:text-5xl font-bold mb-3">Divya Babulal Shah</h1>
-              <h2 className="text-2xl text-accent mb-4">Data Engineer & Analytics Professional</h2>
+              <h2 className="text-2xl text-accent mb-4">Data & AI Professional</h2>
               <div className="flex flex-wrap gap-3 justify-center md:justify-start mb-6 text-muted-foreground">
                 
                 <span className="flex items-center gap-1"><Briefcase className="h-4 w-4" /> Open to Opportunities</span>
@@ -302,7 +302,7 @@ const Index = () => {
   <CardContent className="pt-6">
     <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
       <div>
-        <h3 className="text-xl font-bold">Data & ML Engineer</h3>
+        <h3 className="text-xl font-bold">Data Engineer | Generative AI and ML Systems</h3>
         <p className="text-accent text-lg">Community Dreams Foundation, Remote, USA</p>
       </div>
       <p className="text-muted-foreground">Oct 2025 - Present</p>
@@ -312,28 +312,28 @@ const Index = () => {
   <li className="flex items-start gap-2">
     <span className="text-accent mt-1.5">•</span>
     <span>
-      Built an agentic meeting intelligence platform using LangGraph (ReAct architecture) with 5 custom tools, integrating OpenAI GPT-4o function calling and Whisper transcription to automate end-to-end meeting-to-task workflows across Notion and Slack
+      Engineered an end-to-end AI data extraction pipeline automating collection of clean energy and housing incentive programs across 25+ sources using Playwright, LangChain (Gemini), and rule-based validation, reducing manual research from days to minutes and delivering a deduplicated dataset across 5 incentive categories
     </span>
   </li>
 
   <li className="flex items-start gap-2">
     <span className="text-accent mt-1.5">•</span>
     <span>
-      Engineered an end-to-end churn prediction system for a telecom use case, enabling retention teams to proactively target at-risk customers, boosting recall by 13% via XGBoost + Optuna tuning across 20 hyperparameter trials, tracked with MLflow
+      Deployed a multimodal RAG platform as a FastAPI microservice using LangChain and ChromaDB, enabling organization-wide stakeholders to query complex documents in natural language through a Streamlit interface, reducing manual document processing by 70%
     </span>
   </li>
 
   <li className="flex items-start gap-2">
     <span className="text-accent mt-1.5">•</span>
     <span>
-      Built a production-grade serving infrastructure using FastAPI + Docker + AWS ECS Fargate with GitHub Actions CI/CD, reducing model deployment to a single push and exposing real-time predictions via a public web interface for non-technical stakeholders
+      Designed an evaluation framework for the RAG system using LLM-as-a-Judge and retrieval quality metrics (Precision@k, Recall@k, and faithfulness), increasing answer accuracy by 18% through iterative prompt and retrieval optimization
     </span>
   </li>
 
   <li className="flex items-start gap-2">
     <span className="text-accent mt-1.5">•</span>
     <span>
-      Designed a multimodal RAG pipeline using the Unstructured library to automate extraction of text, tables, and images from complex PDFs, cutting manual processing time by 70%
+      Boosted churn prediction recall by 13% and identified 11% more at-risk customers than baseline by training an XGBoost classifier with Optuna hyperparameter tuning across 20 trials, with all experiments tracked and versioned end-to-end in MLflow
     </span>
   </li>
 
@@ -341,13 +341,6 @@ const Index = () => {
     <span className="text-accent mt-1.5">•</span>
     <span>
       Engineered a scalable Azure Databricks pipeline with Unity Catalog, ingesting real-time REST API data into Bronze layers and transforming it into curated Silver Delta tables using Delta Live Tables (DLT), ensuring 99.9% data readiness
-    </span>
-  </li>
-
-  <li className="flex items-start gap-2">
-    <span className="text-accent mt-1.5">•</span>
-    <span>
-      Automated CI/CD workflows using Databricks Asset Bundles (DAB) and GitHub Actions, improving deployment speed by 80% and enabling secure, production-grade pipelines with Service Principals
     </span>
   </li>
 </ul>
